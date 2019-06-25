@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units medic diver">
+		<Package name="units doc divers">
+				<Container name="MU medic-diver units">
+						<Key ID="STR_MU_units_Diver_medic">
+								<Original>Diver Medic</Original>
+								<English>Diver Medic</English>
+								<French>Plongeur Infirmier</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units SF">
+		<Package name="units SF">
+				<Container name="MU Special Force grp">
+						<Key ID="STR_MU_units_grp_SF">
+								<Original>Men (SF)</Original>
+								<English>Men (SF)</English>
+								<French>Hommes (FS)</French>
+						</Key>
+						<Key ID="STR_MU_grp_SF_Infsquad">
+								<Original>Spec Ops Team</Original>
+								<English>Spec Ops Team</English>
+								<French>Equipe de Forces Spéciales</French>
+						</Key>
+				</Container>
+				<Container name="MU Special Force EDEN Cat">
+						<Key ID="STR_MU_units_Edensubcat_SF">
+								<Original>Men (SF operators)</Original>
+								<English>Men (SF operators)</English>
+								<French>Hommes (FS opérateurs)</French>
+						</Key>
+				</Container>
+				<Container name="MU Special Force units">
+						<Key ID="STR_MU_units_SF_JTAC">
+								<Original>JTAC operator (backpack)</Original>
+								<English>JTAC operator (backpack)</English>
+								<French>Opérateur CAA (sac à dos)</French>
+						</Key>
+						<Key ID="STR_MU_units_SF_AT">
+								<Original>Grenadier (AT)</Original>
+								<English>Grenadier (AT)</English>
+								<French>Grenadier (AT)</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>

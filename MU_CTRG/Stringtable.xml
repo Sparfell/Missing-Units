@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units CTRG">
+		<Package name="units CTRG">
+				<Container name="MU CTRG grp">
+						<Key ID="STR_MU_units_grp_CTRG_D">
+								<Original>Men (CTRG)</Original>
+								<English>Men (CTRG)</English>
+								<French>Hommes (CTRG)</French>
+						</Key>
+				</Container>
+				<Container name="MU CTRG EDEN Cat">
+						<Key ID="STR_MU_units_Edensubcat_CTRG">
+								<Original>Men (CTRG)</Original>
+								<English>Men (CTRG)</English>
+								<French>Hommes (CTRG)</French>
+						</Key>
+				</Container>
+				<Container name="MU CTRG units">
+						<Key ID="STR_MU_units_CTRG_M_mk18">
+								<Original>Marksman (Mk18)</Original>
+								<English>Marksman (Mk18)</English>
+								<French>Tireur d'élite (Mk18)</French>
+						</Key>
+						<Key ID="STR_MU_units_CTRG_AMG">
+								<Original>Asst. Heavy Gunner</Original>
+								<English>Asst. Heavy Gunner</English>
+								<French>Asst. Mitrailleur</French>
+						</Key>
+				</Container>
+				<Container name="MU CTRG groupes">
+						<Key ID="STR_MU_CTRG_grpcatname_Infantry">
+								<Original>Infantry (CTRG)</Original>
+								<English>Infantry (CTRG)</English>
+								<French>Infanterie (CTRG)</French>
+						</Key>
+						<Key ID="STR_MU_CTRG_grpcatname_Support">
+								<Original>Support (CTRG)</Original>
+								<English>Support (CTRG)</English>
+								<French>Soutien (CTRG)</French>
+						</Key>
+						<Key ID="STR_MU_grp_CTRG_Infsquad">
+								<Original>Infantry Squad</Original>
+								<English>Infantry Squad</English>
+								<French>Escouade de fusiliers</French>
+						</Key>
+						<Key ID="STR_MU_grp_CTRG_Infsquad_Weapons">
+								<Original>Assault Squad</Original>
+								<English>Assault Squad</English>
+								<French>Escouade d'assaut</French>
+						</Key>
+						<Key ID="STR_MU_grp_CTRG_InfTeam">
+								<Original>Team</Original>
+								<English>Team</English>
+								<French>Unité</French>
+						</Key>
+						<Key ID="STR_MU_grp_CTRG_InfTeam_AT">
+								<Original>AT team</Original>
+								<English>AT team</English>
+								<French>Equipe anti-blindés</French>
+						</Key>
+						<Key ID="STR_MU_grp_CTRG_InfTeam_AA">
+								<Original>AA team</Original>
+								<English>AA team</English>
+								<French>Equipe de défense aérienne</French>
+						</Key>
+						<Key ID="STR_MU_grp_CTRG_InfSentry">
+								<Original>Sentry</Original>
+								<English>Sentry</English>
+								<French>Sentinelle</French>
+						</Key>
+						<Key ID="STR_MU_grp_CTRG_SniperTeam">
+								<Original>Sniper team</Original>
+								<English>Sniper team</English>
+								<French>Equipe de snipers</French>
+						</Key>
+						<Key ID="STR_MU_grp_CTRG_Support_CLS">
+								<Original>Support team CLS</Original>
+								<English>Support team CLS</English>
+								<French>Equipe d'appui CLS</French>
+						</Key>
+						<Key ID="STR_MU_grp_CTRG_Support_EOD">
+								<Original>Support team EOD</Original>
+								<English>Support team EOD</English>
+								<French>Equipe d'appui EOD</French>
+						</Key>
+						<Key ID="STR_MU_grp_CTRG_Support_engineer">
+								<Original>Support team engineer</Original>
+								<English>Support team engineer</English>
+								<French>Equipe d'appui sapeur</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>

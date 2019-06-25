@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units mercs">
+		<Package name="units mercs">
+				<Container name="MU mercs else">
+						<Key ID="STR_MU_Mercs_marker_flag">
+								<Original>Mercenaries</Original>
+								<English>Mercenaries</English>
+								<French>Mercenaires</French>
+						</Key>
+						<Key ID="STR_MU_Mercs_flagpole">
+								<Original>Flag (Mercenaries)</Original>
+								<English>Flag (Mercenaries)</English>
+								<French>Drapeau (Mercenaires)</French>
+						</Key>
+				</Container>
+				<Container name="MU mercs grp">
+						<Key ID="STR_MU_factionname_mercs">
+								<Original>Mercenaries</Original>
+								<English>Mercenaries</English>
+								<French>Mercenaires</French>
+						</Key>
+						<Key ID="STR_MU_units_grp_mercs">
+								<Original>Men</Original>
+								<English>Men</English>
+								<French>Hommes</French>
+						</Key>
+						<Key ID="STR_MU_grp_mercs_InfWepTeam">
+								<Original>Weapons Team</Original>
+								<English>Weapons Team</English>
+								<French>Weapons Team</French>
+						</Key>
+						<Key ID="STR_MU_grp_mercs_InfSupTeam">
+								<Original>Support Team</Original>
+								<English>Support Team</English>
+								<French>Equipe de soutien</French>
+						</Key>				
+						<Key ID="STR_MU_grp_mercs_InfHQ">
+								<Original>Infantry HQ</Original>
+								<English>Infantry HQ</English>
+								<French>QG Infanterie</French>
+						</Key>
+						<Key ID="STR_MU_grp_mercs_Technicals">
+								<Original>Technicals</Original>
+								<English>Technicals</English>
+								<French>Technicals</French>
+						</Key>
+						<Key ID="STR_MU_grp_mercs_Infsniper">
+								<Original>Sniper unit</Original>
+								<English>Sniper unit</English>
+								<French>Binôme Sniper</French>
+						</Key>
+				</Container>
+				<Container name="MU mercs units">
+						<Key ID="STR_MU_units_mercs_R1">
+								<Original>Mercenary 1</Original>
+								<English>Mercenary 1</English>
+								<French>Mercenaire 1</French>
+						</Key>
+						<Key ID="STR_MU_units_mercs_TL1">
+								<Original>Team Leader 1</Original>
+								<English>Team Leader 1</English>
+								<French>Chef d'équipe 1</French>
+						</Key>
+						<Key ID="STR_MU_units_mercs_TL2">
+								<Original>Team Leader 2</Original>
+								<English>Team Leader 2</English>
+								<French>Chef d'équipe 2</French>
+						</Key>
+						<Key ID="STR_MU_units_mercs_R2">
+								<Original>Mercenary 2</Original>
+								<English>Mercenary 2</English>
+								<French>Mercenaire 2</French>
+						</Key>
+						<Key ID="STR_MU_units_mercs_R3">
+								<Original>Mercenary 3</Original>
+								<English>Mercenary 3</English>
+								<French>Mercenaire 3</French>
+						</Key>
+						<Key ID="STR_MU_units_mercs_R4">
+								<Original>Mercenary 4</Original>
+								<English>Mercenary 4</English>
+								<French>Mercenaire 4</French>
+						</Key>
+						<Key ID="STR_MU_units_mercs_GL1">
+								<Original>Grenadier 1</Original>
+								<English>Grenadier 1</English>
+								<French>Grenadier 1</French>
+						</Key>
+						<Key ID="STR_MU_units_mercs_GL2">
+								<Original>Grenadier 2</Original>
+								<English>Grenadier 2</English>
+								<French>Grenadier 2</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>

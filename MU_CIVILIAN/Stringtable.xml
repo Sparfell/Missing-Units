@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units vehicles">
+		<Package name="units vehicles">
+				<Container name="MU vehicles units">
+						<Key ID="STR_MU_units_vehicles_policeofficer">
+								<Original>Police Officer</Original>
+								<English>Police Officer</English>
+								<French>Policier</French>
+						</Key>
+						<Key ID="STR_MU_vehicles_policeoffroad">
+								<Original>Police offroad</Original>
+								<English>Police offroad</English>
+								<French>Tout-terrain police</French>
+						</Key>
+						<Key ID="STR_MU_civilian_random_civil">
+								<Original>Random civilian</Original>
+								<English>Random civilian</English>
+								<French>Civil random</French>
+						</Key>
+						<Key ID="STR_MU_civilian_random_civil_euro">
+								<Original>Random civilian (Europe)</Original>
+								<English>Random civilian (Europe)</English>
+								<French>Civil random (Europe)</French>
+						</Key>
+						<Key ID="STR_MU_civilian_random_civil_asia">
+								<Original>Random civilian (Asia)</Original>
+								<English>Random civilian (Asia)</English>
+								<French>Civil random (Asie)</French>
+						</Key>
+						<Key ID="STR_MU_civilian_random_civil_afro">
+								<Original>Random civilian (Africa)</Original>
+								<English>Random civilian (Africa)</English>
+								<French>Civil random (Afrique)</French>
+						</Key>
+						<Key ID="STR_MU_civilian_random_civil_persan">
+								<Original>Random civilian (Persian)</Original>
+								<English>Random civilian (Persian)</English>
+								<French>Civil random (Perse)</French>
+						</Key>
+						<Key ID="STR_MU_civilian_random_civil_tanoan">
+								<Original>Random civilian (Tanoan)</Original>
+								<English>Random civilian (Tanoan)</English>
+								<French>Civil random (Tanoa)</French>
+						</Key>
+						<Key ID="STR_MU_units_Edensubcat_Persan">
+								<Original>Men (Persan)</Original>
+								<English>Men (Persan)</English>
+								<French>Hommes (Perse)</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units GrDa">
+		<Package name="units GrDa">
+				<Container name="MU Green Daggers grp">
+						<Key ID="STR_MU_units_grp_GrDa">
+								<Original>Men (Green Daggers)</Original>
+								<English>Men (Green Daggers)</English>
+								<French>Hommes (Green Daggers)</French>
+						</Key>
+						<Key ID="STR_MU_grp_GrDa_InfGreendaggers">
+								<Original>Green Daggers Team</Original>
+								<English>Green Daggers Team</English>
+								<French>Equipe Green Daggers</French>
+						</Key>
+						<Key ID="STR_MU_grp_GrDa_InfunitGreendaggers">
+								<Original>Green Daggers Unit</Original>
+								<English>Green Daggers Unit</English>
+								<French>Unité Green Daggers</French>
+						</Key>
+						<Key ID="STR_MU_grp_GrDa_InfATGreendaggers">
+								<Original>Green Daggers AT Unit</Original>
+								<English>Green Daggers AT Unit</English>
+								<French>Unité AT Green Daggers</French>
+						</Key>
+				</Container>
+				<Container name="MU Green Daggers EDEN Cat">
+						<Key ID="STR_MU_units_Edensubcat_GrDa">
+								<Original>Men (Green Daggers)</Original>
+								<English>Men (Green Daggers)</English>
+								<French>Hommes (Green Daggers)</French>
+						</Key>
+				</Container>
+				<Container name="MU Green Daggers units">
+						<Key ID="STR_MU_units_GrDa_R_ADR">
+								<Original>Rifleman (ADR)</Original>
+								<English>Rifleman (ADR)</English>
+								<French>Fusilier (ADR)</French>
+						</Key>
+						<Key ID="STR_MU_units_GrDa_R_tws">
+								<Original>Rifleman (TWS)</Original>
+								<English>Rifleman (TWS)</English>
+								<French>Fusilier (TWS)</French>
+						</Key>
+						<Key ID="STR_MU_units_GrDa_LAT">
+								<Original>AT specialist (PCML)</Original>
+								<English>AT specialist (PCML)</English>
+								<French>Spécialiste AT (PCML)</French>
+						</Key>
+						<Key ID="STR_MU_units_GrDa_AT">
+								<Original>AT specialist (MAAWS)</Original>
+								<English>AT specialist (MAAWS)</English>
+								<French>Spécialiste AT (MAAWS)</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>

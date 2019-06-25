@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units militia">
+		<Package name="units militia">
+				<Container name="MU militia else">
+						<Key ID="STR_MU_MILITIA_marker_flag">
+								<Original>Hellenic patriot Militia (HPM)</Original>
+								<English>Hellenic Patriot Militia (HPM)</English>
+								<French>Milice Patriote Héllenique (MPH)</French>
+						</Key>
+						<Key ID="STR_MU_MILITIA_flagpole">
+								<Original>Flag (HPM)</Original>
+								<English>Flag (HPM)</English>
+								<French>Drapeau (MPH)</French>
+						</Key>
+				</Container>
+				<Container name="MU militia grp">
+						<Key ID="STR_MU_factionname_militia">
+								<Original>HPM</Original>
+								<English>HPM</English>
+								<French>MPH</French>
+						</Key>
+						<Key ID="STR_MU_units_grp_militia">
+								<Original>Men</Original>
+								<English>Men</English>
+								<French>Hommes</French>
+						</Key>
+				</Container>
+				<Container name="MU militia units">
+						<Key ID="STR_MU_units_militia_MG">
+								<Original>Machine gunner (zafir)</Original>
+								<English>Machine gunner (zafir)</English>
+								<French>Mitrailleur (zafir)</French>
+						</Key>
+						<Key ID="STR_MU_units_militia_AT">
+								<Original>AT Specialist (RPG42)</Original>
+								<English>AT Specialist (RPG42)</English>
+								<French>Spécialiste AT (RPG42)</French>
+						</Key>
+						<Key ID="STR_MU_units_militia_AT2">
+								<Original>AT Specialist (MAAWS)</Original>
+								<English>AT Specialist (MAAWS)</English>
+								<French>Spécialiste AT (MAAWS)</French>
+						</Key>
+						<Key ID="STR_MU_units_militia_HAT">
+								<Original>Missile Specialist (Vorona)</Original>
+								<English>Missile Specialist (Vorona)</English>
+								<French>Spécialiste AT (Vorona)</French>
+						</Key>
+						<Key ID="STR_MU_units_militia_MG2">
+								<Original>Machine gunner (navid)</Original>
+								<English>Machine gunner (navid)</English>
+								<French>Mitrailleur (navid)</French>
+						</Key>
+						<Key ID="STR_MU_units_militia_AMG2">
+								<Original>Asst. Machine gunner (navid)</Original>
+								<English>Asst Machine gunner (navid)</English>
+								<French>Asst Mitrailleur (navid)</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>

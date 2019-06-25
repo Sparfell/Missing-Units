@@ -1,0 +1,135 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//			MISSING UNITS - V2.7 - ADDON FOR ARMA 3 by Sparfell			//	
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+0 :CHANGELOGS
+
+Changelog v 2.7 :
+ - Added 36 guerilla uniform variants
+ - Added AAF EOD Vest
+ - Reworked random civilian script
+ - Reworked unit config (mainly AI related values)
+ - Reworked some unit loadouts
+ - Reworked DiplayNames (use of vanilla strintables)
+
+Changelog v 2.6 :
+ - Added Kerry vest variant in two colors (thanks to zukov)
+ - Added NATO Light helmet variant without the headset (thanks to zukov)
+ - Removed Mk20 with opfor camo (texture removed by BI)
+ - Removed black ACPC2 (texture removed by BI) - Thanks to Tanin for reporting me the issue. 
+
+Changelog v 2.5 :
+ - Added 3DEN preview pictures for all units
+ - Added Mk20 with opfor camo
+ - Added black ACPC2
+ - Added a greendagger unit equipped with ADR
+ - Fixed missing group icons in 3DEN
+ - Various fixes
+
+Changelog v 2.4 :
+ - Changed AT launchers for some units (using launchers form tank DLC)
+ - Added some new AT units (using launchers form tank DLC)
+ - Added MB 4WD armed variants (AT and LMG) for some MU factions
+ - Added a Gorgon for HPM
+ - Changed some groups configs
+ - Removed unarmed marid (not compatible with tank DLC update)
+
+Changelog v 2.3 :
+ - config cleaning
+ - Added Marid and Panther unarmed variants
+
+Changelog v 2.2 :
+ - Added Gorgon for NATO and NATO (Pacific)
+ - Added Strider for NATO (Pacific)
+ - Minor config and loadouts adjustments
+
+Changelog v 2.1 :
+ - ArmA 1.62 adaptation
+ - Added headgear randomization for mercs
+ - Improved uniforms used by mercs and ISAS
+ - Some units are now using Apex DLC Weapons and items
+ - ISAS, MERCS and HPM factions are now using some Apex DLC vehicles
+ - Minor fixes
+
+Changelog v 2.0 :
+ - 3DEN adaptation
+ - Civilian trucks are now hidden (added by BIS in 1.58)
+ - Added guerilla garment uniform variants (thanks dreadpirate and somesangheili)
+ - Added 1 wetsuit and rebreather variant
+ - Added Rolled-up and tshirt Combat Fatigues variants
+ - Added 1 VR suit variant with no lights (thanks somesangheili)
+ - Added 1 coverall variant (thanks somesangheili)
+ - optional AAF night is no longer supported
+
+Changelog v 1.9 :
+ - Fixed : Missing script when placing down a random civilian
+ - Added : Persian Random civilian
+ - Fixed Vests protection values according to 1.54
+
+Changelog v 1.8 :
+ - Fixed error in rpt : "Item STR_MU_units_Diver_medic listed twice"
+ - Added : logo in VA.
+ - changed cost value for all units according to ASRAI standards
+
+Changelog V 1.7.1 :
+ - Fixed wrong classnames for HPM and CSAT combat diver ammunitions.
+
+Changelog V 1.7 :
+ - Changed black carrier rig model to match with 1.46.
+ - ASRAI compatibility is now directly integrated.
+ - Added Civilian.pbo classnames in documentation.
+ - Fixed visibility of some base class in zeus.
+
+Changelog V 1.6 :
+ - Fixed police officer headgear ramdomization.
+ - Fixed a lot of small things in the config files.
+ - Reworked all configs files.
+ - Changed classnames for all weapons in config. It will break your scripts or missions if your were calling these classnames.
+ - Added new pbo : MU_CORE. all other pbos require MU_CORE in order to work properly.
+ - Added new pbo : MU_CIVILIAN. It add a civilian with randomized gear that does not look like a tourist.
+ - Added new pbo : MU_ASSET. Include retextured assets (with texture already included in Arma3) : 5 uniforms, 5 vests, 5 headgear, 4 bags.
+ - Added Bidpods to some units.
+ - Added 6 New units : Russian marksman, CTRG MG, CTRG Asst MG, NATO SF Sniper, HPM MG (navid) and HPM Asst MG.
+ - Replaced some marksman weapons by weapons from the DLC.
+ - Removed the ISAS custom truck texture.
+ - Removed RHS optionnal configs.
+
+Changelog V 1.5 :
+ - Fixed languages for some ISAS units.
+ - Reworked all configs files.
+ - Reworked NATO SF gears.
+ - Reworked gear for 'I_MU_mercs_medic_F'.
+ - Reworked Groups configs for better compatibility with ALIVE (except MU_CTRG), I hope it will work.
+ - Changed Russian units are now part of CSAT faction.
+ - Added New faction called "HPM" (Hellenic Patriot Milicia) under Opfor side.
+ - Added various vehicles and static weapons for ISAS and Mercenaries.
+ - Added flag markers and flag poles for ISAS and Mercs.
+ - Added New civilian police officer and police offroad.
+ - Added Mod.cpp.
+ - Added Optional AGM patch configs for Missing Units (concerning AGM_explosives).
+ - Added Optional RHS replacement configs for Missing Units (MU_RU and MU_SF).
+ - Added Optional ASRAI3 config for Missing Units.
+
+Changelog V 1.4 :
+ - Fixed wrong textures for some vehicles (offroads and truck).
+ - Changed. CTRG sniper has now a black sniper rifle.
+ - Changed. Beenie for CTRG squad leader.
+ - Added. Speedboat with CTRG crew.
+ - Added. Sniper unit for greendaggers.
+ - Added. Optional PBO that supress NVG and add flashlight on most AAF units.
+
+Changelog V 1.3 :
+ - Added compatibility with FFV (Firing From Vehicles)
+ - Fixed Russian uniform class (the uniform was invisible in virtual arsenal)
+
+Changelog V 1.2 :
+ - Added A new PBO for AAF special force units that can be found in the editor under "men (Green Daggers)".
+ - Added Four ground vehicles for the Mercenaries : unarmed offroad, armed offroad, repair offroad and quad bike.
+ - Added One ground vehicles for ISAS : truck.
+ - Added values concerning IA for all units (camouflage, accuracy, cost, threat, sensitivity, detectskill).
+ - Added AGM 0.93 compatibility. Enginneers and explosive specialist now have defusal kits and clackers into their loadouts.
+ - Changed mercenary sniper's loadout. He doesn't wear balaclava anymore
+ - Changed ISAS offroads' texture randomization script for more desert-like patterns.
+
+Changelog V 1.1 :
+ - Fixed Zeus compatibility

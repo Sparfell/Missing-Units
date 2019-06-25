@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units Else">
+		<Package name="MU Else ">
+				<Container name="MU else backpacks">
+						<Key ID="STR_MU_backpack_tactical_cbr">
+								<Original>Tactical Backpack (Coyote)</Original>
+								<English>Tactical Backpack (Coyote)</English>
+								<French>Sac à dos tactique (Coyote)</French>
+						</Key>
+						<Key ID="STR_MU_backpack_carryall_blk">
+								<Original>Carryall Backpack (Black)</Original>
+								<English>Carryall Backpack (Black)</English>
+								<French>Sac à dos multifonction Backpack (Noir)</French>
+						</Key>
+						<Key ID="STR_MU_backpack_kitbag_blk">
+								<Original>Kitbag (Black)</Original>
+								<English>Kitbag (Black)</English>
+								<French>Paquetage de terrain (Noir)</French>
+						</Key>
+						<Key ID="STR_MU_backpack_kitbag_digi">
+								<Original>Kitbag (Digi)</Original>
+								<English>Kitbag (Digi)</English>
+								<French>Paquetage de terrain (Digi)</French>
+						</Key>
+				</Container>
+				<Container name="MU else headgears">
+						<Key ID="STR_MU_headgears_milcap_cbr">
+								<Original>Military Cap (Coyote)</Original>
+								<English>Military Cap (Coyote)</English>
+								<French>Képi (Coyote)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_milcap_blk">
+								<Original>Military Cap (Black)</Original>
+								<English>Military Cap (Black)</English>
+								<French>Képi (Noir)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_watchcap_red">
+								<Original>Beanie (Red)</Original>
+								<English>Beanie (Red)</English>
+								<French>Bonnet (Rouge)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_watchcap_blue">
+								<Original>Beanie (Blue)</Original>
+								<English>Beanie (Blue)</English>
+								<French>Bonnet (Bleu)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_Beret_Colonel_eagle">
+								<Original>Beret [NATO] (Eagle)</Original>
+								<English>Beret [NATO] (Eagle)</English>
+								<French>Béret [NATO] (Eagle)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_HelmetB_light2">
+								<Original>Light Combat Helmet 2</Original>
+								<English>Light Combat Helmet 2</English>
+								<French>Light Combat Helmet 2</French>
+						</Key>
+						<Key ID="STR_MU_headgears_HelmetB_light2_Black">
+								<Original>Light Combat Helmet 2 (Black)</Original>
+								<English>Light Combat Helmet 2 (Black)</English>
+								<French>Light Combat Helmet 2 (Black)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_HelmetB_light2_Desert">
+								<Original>Light Combat Helmet 2 (Desert)</Original>
+								<English>Light Combat Helmet 2 (Desert)</English>
+								<French>Light Combat Helmet 2 (Desert)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_HelmetB_light2_Grass">
+								<Original>Light Combat Helmet 2 (Grass)</Original>
+								<English>Light Combat Helmet 2 (Grass)</English>
+								<French>Light Combat Helmet 2 (Grass)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_HelmetB_light2_Sand">
+								<Original>Light Combat Helmet 2 (Sand)</Original>
+								<English>Light Combat Helmet 2 (Sand)</English>
+								<French>Light Combat Helmet 2 (Sand)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_HelmetB_light2_Snakeskin">
+								<Original>Light Combat Helmet 2 (Snakeskin)</Original>
+								<English>Light Combat Helmet 2 (Snakeskin)</English>
+								<French>Light Combat Helmet 2 (Snakeskin)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_HelmetB_light2_Tropic">
+								<Original>Light Combat Helmet 2 (Tropic)</Original>
+								<English>Light Combat Helmet 2 (Tropic)</English>
+								<French>Light Combat Helmet 2 (Tropic)</French>
+						</Key>
+				</Container>
+				<Container name="MU else vests">
+						<Key ID="STR_MU_vest_platecarrier1_blk">
+								<Original>Carrier Rig (Black)</Original>
+								<English>Carrier Rig (Black)</English>
+								<French>Gilet lourd (Noir)</French>
+						</Key>
+						<Key ID="STR_MU_vest_platecarrier1_cbr">
+								<Original>Carrier Lite (Coyote)</Original>
+								<English>Carrier Lite (Coyote)</English>
+								<French>Gilet léger (Coyote)</French>
+						</Key>
+						<Key ID="STR_MU_vest_platecarrier1_khk">
+								<Original>Carrier Lite (Khaki)</Original>
+								<English>Carrier Lite (Khaki)</English>
+								<French>Gilet léger (Khaki)</French>
+						</Key>
+						<Key ID="STR_MU_vest_platecarrier2_cbr">
+								<Original>Carrier Rig (Coyote)</Original>
+								<English>Carrier Rig (Coyote)</English>
+								<French>Gilet lourd (Coyote)</French>
+						</Key>
+						<Key ID="STR_MU_vest_platecarrier2_khk">
+								<Original>Carrier Rig (Khaki)</Original>
+								<English>Carrier Rig (Khaki)</English>
+								<French>Gilet lourd (Khaki)</French>
+						</Key>
+						<Key ID="STR_MU_vest_Rebreather_rus">
+								<Original>Rebreather [RU]</Original>
+								<English>Rebreather [RU]</English>
+								<French>Recycleur [RU]</French>
+						</Key>
+						<Key ID="STR_MU_vest_PlateCarrier_green">
+								<Original>US Plate Carrier Rig (Green)</Original>
+								<English>US Plate Carrier Rig (Green)</English>
+								<French>Gilet modulable léger à plaque US (Vert)</French>
+						</Key>
+						<Key ID="STR_MU_vest_PlateCarrier_tropic">
+								<Original>US Plate Carrier Rig (Tropic)</Original>
+								<English>US Plate Carrier Rig (Tropic)</English>
+								<French>Gilet modulable léger à plaque US (Tropic)</French>
+						</Key>
+						<Key ID="STR_MU_vest_eod_aaf">
+								<Original>EOD Vest [AAF]</Original>
+								<English>EOD Vest [AAF]</English>
+								<French>Veste de démineur [AAF]</French>
+						</Key>
+				</Container>
+				<Container name="MU else weapons">
+						<Key ID="STR_MU_weap_Mk20_camoO">
+								<Original>Mk20 5.56 mm (Opfor)</Original>
+								<English>Mk20 5.56 mm (Opfor)</English>
+								<French>Mk20 5.56 mm (Opfor)</French>
+						</Key>
+						<Key ID="STR_MU_weap_Mk20C_camoO">
+								<Original>Mk20C 5.56 mm (Opfor)</Original>
+								<English>Mk20C 5.56 mm (Opfor)</English>
+								<French>Mk20C 5.56 mm (Opfor)</French>
+						</Key>
+						<Key ID="STR_MU_weap_Mk20_GL_camoO">
+								<Original>Mk20 EGLM 5.56 mm (Opfor)</Original>
+								<English>Mk20 EGLM 5.56 mm (Opfor)</English>
+								<French>Mk20 EGLM 5.56 mm (Opfor)</French>
+						</Key>
+						<Key ID="STR_MU_weap_ACPC2_black">
+								<Original>ACP-C2 .45 ACP (Black)</Original>
+								<English>ACP-C2 .45 ACP (Black)</English>
+								<French>ACP-C2 .45 ACP (Noir)</French>
+						</Key>
+				</Container>
+				<Container name="MU else uniform">
+						<Key ID="STR_MU_u_CombatUniform_sage">
+								<Original>Combat Fatigues (Sage)</Original>
+								<English>Combat Fatigues (Sage)</English>
+								<French>Treillis (Sage)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_sage_vest">
+								<Original>Combat Fatigues (Sage) (Rolled-up)</Original>
+								<English>Combat Fatigues (Sage) (Rolled-up)</English>
+								<French>Treillis (Sage)(Roulé)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_sage_tshirt">
+								<Original>Combat Fatigues (Sage) (Tee)</Original>
+								<English>Combat Fatigues (Sage) (Tee)</English>
+								<French>Treillis (Sage)(Tshirt)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_wdl">
+								<Original>Combat Fatigues (Wood)</Original>
+								<English>Combat Fatigues (Wood)</English>
+								<French>Treillis (Wood)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_wdl_vest">
+								<Original>Combat Fatigues (Wood) (Rolled-up)</Original>
+								<English>Combat Fatigues (Wood) (Rolled-up)</English>
+								<French>Treillis (Wood)(Roulé)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_wdl_tshirt">
+								<Original>Combat Fatigues (Wood) (Tee)</Original>
+								<English>Combat Fatigues (Wood) (Tee)</English>
+								<French>Treillis (Wood)(Tshirt)</French>
+						</Key>
+						<Key ID="STR_MU_u_coverall_dirty2">
+								<Original>Coveralls (Dirty)</Original>
+								<English>Coveralls (Dirty)</English>
+								<French>Blouse d'ouvrier (Dirty)</French>
+						</Key>
+						<Key ID="STR_MU_u_coverall_black">
+								<Original>Coveralls (Black)</Original>
+								<English>Coveralls (Black)</English>
+								<French>Blouse d'ouvrier (Noir)</French>
+						</Key>
+						<Key ID="STR_MU_u_coverall_urbancamo">
+								<Original>Coveralls (Urban camo)</Original>
+								<English>Coveralls (Urban camo)</English>
+								<French>Blouse d'ouvrier (Camouflage urbain)</French>
+						</Key>
+						<Key ID="STR_MU_u_coverall_grey">
+								<Original>Coveralls (Grey)</Original>
+								<English>Coveralls (Grey)</English>
+								<French>Blouse d'ouvrier (Grise)</French>
+						</Key>
+						<Key ID="STR_MU_u_wetsuit_ru">
+								<Original>Wetsuit [RU]</Original>
+								<English>Wetsuit [RU]</English>
+								<French>Combinaison de plongée [RU]</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2">
+								<Original>Guerilla Garment 2</Original>
+								<English>Guerilla Garment 2</English>
+								<French>Vêtement guérilla 2</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3">
+								<Original>Guerilla Garment 3</Original>
+								<English>Guerilla Garment 3</English>
+								<French>Vêtement guérilla 3</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4">
+								<Original>Guerilla Garment Jean</Original>
+								<English>Guerilla Garment Jean</English>
+								<French>Vêtement guérilla Jean</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5">
+								<Original>Guerilla Garment Jean 2</Original>
+								<English>Guerilla Garment Jean 2</English>
+								<French>Vêtement guérilla Jean 2</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_grey">
+								<Original>Guerilla Garment (Camo Grey)</Original>
+								<English>Guerilla Garment (Camo Grey)</English>
+								<French>Vêtement guérilla (camo gris)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_grey">
+								<Original>Guerilla Garment 2 (Camo Grey)</Original>
+								<English>Guerilla Garment 2 (Camo Grey)</English>
+								<French>Vêtement guérilla 2 (camo gris)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_grey">
+								<Original>Guerilla Garment 3 (Camo Grey)</Original>
+								<English>Guerilla Garment 3 (Camo Grey)</English>
+								<French>Vêtement guérilla 3 (camo gris)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4_grey">
+								<Original>Guerilla Garment Jean (Camo Grey)</Original>
+								<English>Guerilla Garment Jean (Camo Grey)</English>
+								<French>Vêtement guérilla Jean (camo gris)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5_grey">
+								<Original>Guerilla Garment Jean 2 (Camo Grey)</Original>
+								<English>Guerilla Garment Jean 2 (Camo Grey)</English>
+								<French>Vêtement guérilla Jean 2 (camo gris)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_redcamo">
+								<Original>Guerilla Garment (Camo Red)</Original>
+								<English>Guerilla Garment (Camo Red)</English>
+								<French>Vêtement guérilla (camo rouge)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_redcamo">
+								<Original>Guerilla Garment 2 (Camo Red)</Original>
+								<English>Guerilla Garment 2 (Camo Red)</English>
+								<French>Vêtement guérilla 2 (camo rouge)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_redcamo">
+								<Original>Guerilla Garment 3 (Camo Red)</Original>
+								<English>Guerilla Garment 3 (Camo Red)</English>
+								<French>Vêtement guérilla 3 (camo rouge)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4_redcamo">
+								<Original>Guerilla Garment Jean (Camo Red)</Original>
+								<English>Guerilla Garment Jean (Camo Red)</English>
+								<French>Vêtement guérilla Jean (camo rouge)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5_redcamo">
+								<Original>Guerilla Garment Jean 2 (Camo Red)</Original>
+								<English>Guerilla Garment Jean 2 (Camo Red)</English>
+								<French>Vêtement guérilla Jean 2 (camo rouge)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_skull">
+								<Original>Guerilla Garment (Skull)</Original>
+								<English>Guerilla Garment (Skull)</English>
+								<French>Vêtement guérilla (crâne)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_skull">
+								<Original>Guerilla Garment 2 (Skull)</Original>
+								<English>Guerilla Garment 2 (Skull)</English>
+								<French>Vêtement guérilla 2 (crâne)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_skull">
+								<Original>Guerilla Garment 3 (Skull)</Original>
+								<English>Guerilla Garment 3 (Skull)</English>
+								<French>Vêtement guérilla 3 (crâne)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4_skull">
+								<Original>Guerilla Garment Jean (Skull)</Original>
+								<English>Guerilla Garment Jean (Skull)</English>
+								<French>Vêtement guérilla Jean (crâne)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5_skull">
+								<Original>Guerilla Garment Jean 2 (Skull)</Original>
+								<English>Guerilla Garment Jean 2 (Skull)</English>
+								<French>Vêtement guérilla Jean 2 (crâne)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_brown">
+								<Original>Guerilla Garment (Brown)</Original>
+								<English>Guerilla Garment (Brown)</English>
+								<French>Vêtement guérilla (marron)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_brown">
+								<Original>Guerilla Garment 2 (Brown)</Original>
+								<English>Guerilla Garment 2 (Brown)</English>
+								<French>Vêtement guérilla 2 (marron)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_brown">
+								<Original>Guerilla Garment 3 (Brown)</Original>
+								<English>Guerilla Garment 3 (Brown)</English>
+								<French>Vêtement guérilla 3 (marron)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4_brown">
+								<Original>Guerilla Garment Jean (Brown)</Original>
+								<English>Guerilla Garment Jean (Brown)</English>
+								<French>Vêtement guérilla Jean (marron)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5_brown">
+								<Original>Guerilla Garment Jean 2 (Brown)</Original>
+								<English>Guerilla Garment Jean 2 (Brown)</English>
+								<French>Vêtement guérilla Jean 2 (marron)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_orange">
+								<Original>Guerilla Garment (Orange)</Original>
+								<English>Guerilla Garment (Orange)</English>
+								<French>Vêtement guérilla (orange)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_orange">
+								<Original>Guerilla Garment 2 (Orange)</Original>
+								<English>Guerilla Garment 2 (Orange)</English>
+								<French>Vêtement guérilla 2 (orange)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_orange">
+								<Original>Guerilla Garment 3 (Orange)</Original>
+								<English>Guerilla Garment 3 (Orange)</English>
+								<French>Vêtement guérilla 3 (orange)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4_orange">
+								<Original>Guerilla Garment Jean (Orange)</Original>
+								<English>Guerilla Garment Jean (Orange)</English>
+								<French>Vêtement guérilla Jean (orange)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5_orange">
+								<Original>Guerilla Garment Jean 2 (Orange)</Original>
+								<English>Guerilla Garment Jean 2 (Orange)</English>
+								<French>Vêtement guérilla Jean 2 (orange)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_yellow">
+								<Original>Guerilla Garment (Yellow)</Original>
+								<English>Guerilla Garment (Yellow)</English>
+								<French>Vêtement guérilla (jaune)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_yellow">
+								<Original>Guerilla Garment 2 (Yellow)</Original>
+								<English>Guerilla Garment 2 (Yellow)</English>
+								<French>Vêtement guérilla 2 (jaune)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_yellow">
+								<Original>Guerilla Garment 3 (Yellow)</Original>
+								<English>Guerilla Garment 3 (Yellow)</English>
+								<French>Vêtement guérilla 3 (jaune)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4_yellow">
+								<Original>Guerilla Garment Jean (Yellow)</Original>
+								<English>Guerilla Garment Jean (Yellow)</English>
+								<French>Vêtement guérilla Jean (jaune)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5_yellow">
+								<Original>Guerilla Garment Jean 2 (Yellow)</Original>
+								<English>Guerilla Garment Jean 2 (Yellow)</English>
+								<French>Vêtement guérilla Jean 2 (jaune)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_blue">
+								<Original>Guerilla Garment (Blue)</Original>
+								<English>Guerilla Garment (Blue)</English>
+								<French>Vêtement guérilla (bleu)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_blue">
+								<Original>Guerilla Garment 2 (Blue)</Original>
+								<English>Guerilla Garment 2 (Blue)</English>
+								<French>Vêtement guérilla 2 (bleu)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_blue">
+								<Original>Guerilla Garment 3 (Blue)</Original>
+								<English>Guerilla Garment 3 (Blue)</English>
+								<French>Vêtement guérilla 3 (bleu)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4_blue">
+								<Original>Guerilla Garment Jean (Blue)</Original>
+								<English>Guerilla Garment Jean (Blue)</English>
+								<French>Vêtement guérilla Jean (bleu)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5_blue">
+								<Original>Guerilla Garment Jean 2 (Blue)</Original>
+								<English>Guerilla Garment Jean 2 (Blue)</English>
+								<French>Vêtement guérilla Jean 2 (bleu)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_olive">
+								<Original>Guerilla Garment 2 (Olive)</Original>
+								<English>Guerilla Garment 2 (Olive)</English>
+								<French>Vêtement guérilla 2 (olive)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_olive">
+								<Original>Guerilla Garment 3 (Olive)</Original>
+								<English>Guerilla Garment 3 (Olive)</English>
+								<French>Vêtement guérilla 3 (olive)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4_olive">
+								<Original>Guerilla Garment Jean (Olive)</Original>
+								<English>Guerilla Garment Jean (Olive)</English>
+								<French>Vêtement guérilla Jean (olive)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5_olive">
+								<Original>Guerilla Garment Jean 2 (Olive)</Original>
+								<English>Guerilla Garment Jean 2 (Olive)</English>
+								<French>Vêtement guérilla Jean 2 (olive)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_dirty">
+								<Original>Guerilla Garment (Dirty)</Original>
+								<English>Guerilla Garment (Dirty)</English>
+								<French>Vêtement guérilla (sale)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_dirty">
+								<Original>Guerilla Garment 2 (Dirty)</Original>
+								<English>Guerilla Garment 2 (Dirty)</English>
+								<French>Vêtement guérilla 2 (sale)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_dirty">
+								<Original>Guerilla Garment 3 (Dirty)</Original>
+								<English>Guerilla Garment 3 (Dirty)</English>
+								<French>Vêtement guérilla 3 (sale)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4_dirty">
+								<Original>Guerilla Garment Jean (Dirty)</Original>
+								<English>Guerilla Garment Jean (Dirty)</English>
+								<French>Vêtement guérilla Jean (sale)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5_dirty">
+								<Original>Guerilla Garment Jean 2 (Dirty)</Original>
+								<English>Guerilla Garment Jean 2 (Dirty)</English>
+								<French>Vêtement guérilla Jean 2 (sale)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_tank">
+								<Original>Guerilla Garment (Tank Top)</Original>
+								<English>Guerilla Garment (Tank Top)</English>
+								<French>Vêtement guérilla (débardeur)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_tank">
+								<Original>Guerilla Garment 2 (Tank Top)</Original>
+								<English>Guerilla Garment 2 (Tank Top)</English>
+								<French>Vêtement guérilla 2 (débardeur)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_tank">
+								<Original>Guerilla Garment 3 (Tank Top)</Original>
+								<English>Guerilla Garment 3 (Tank Top)</English>
+								<French>Vêtement guérilla 3 (débardeur)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_tank">
+								<Original>Guerilla Garment Para (Tank Top)</Original>
+								<English>Guerilla Garment Para (Tank Top)</English>
+								<French>Vêtement guérilla Para (débardeur)</French>
+						</Key>
+						<Key ID="STR_MU_u_Protagonist_VR_nolight">
+								<Original>VR Suit</Original>
+								<English>VR Suit</English>
+								<French>Costume VR</French>
+						</Key>
+						<Key ID="STR_MU_u_Casual_brown">
+								<Original>Casual Clothes (Brown)</Original>
+								<English>Casual Clothes (Brown)</English>
+								<French>Vêtements de ville (brun)</French>
+						</Key>
+						<Key ID="STR_MU_u_Casual_white">
+								<Original>Casual Clothes (White)</Original>
+								<English>Casual Clothes (White)</English>
+								<French>Vêtements de ville (blanc)</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>

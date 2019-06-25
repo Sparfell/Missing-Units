@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units vehicles">
+		<Package name="units vehicles">
+				<Container name="MU vehicles units">
+						<Key ID="STR_MU_units_vehicles_helipilot">
+								<Original>Helicopter pilot</Original>
+								<English>Helicopter pilot</English>
+								<French>Pilote d'hélicoptère</French>
+						</Key>
+						<Key ID="STR_MU_vehicles_ZamakFuel">
+								<Original>Zamak Fuel</Original>
+								<English>Zamak Fuel</English>
+								<French>Citerne Zamak</French>
+						</Key>
+						<Key ID="STR_MU_vehicles_ZamakRepair">
+								<Original>Zamak Repair</Original>
+								<English>Zamak Repair</English>
+								<French>Réparateur Zamak</French>
+						</Key>
+						<Key ID="STR_MU_vehicles_ZamakTransportCovered">
+								<Original>Zamak Transport (Covered)</Original>
+								<English>Zamak Transport (Covered)</English>
+								<French>Transporteur Zamak (Couvert)</French>
+						</Key>
+						<Key ID="STR_MU_vehicles_OrcaUnarmed">
+								<Original>PO-30 Orca (unarmed)</Original>
+								<English>PO-30 Orca (unarmed)</English>
+								<French>PO-30 Orca (non armé)</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>

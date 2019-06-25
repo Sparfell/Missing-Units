@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units divers">
+		<Package name="units divers">
+				<Container name="MU diver grp">
+						<Key ID="STR_MU_units_grp_Diver">
+								<Original>Men (Combat Divers)</Original>
+								<English>Men (Combat Divers)</English>
+								<French>Hommes (plongeurs de combat)</French>
+						</Key>
+				</Container>
+				<Container name="MU diver EDEN Cat">
+						<Key ID="STR_MU_units_Edensubcat_CombatDivers">
+								<Original>Men (Combat Divers)</Original>
+								<English>Men (Combat Divers)</English>
+								<French>Hommes (plongeurs de combats)</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>

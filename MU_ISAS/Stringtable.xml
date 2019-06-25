@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Missing Units islam">
+		<Package name="units islam">
+				<Container name="MU islam else">
+						<Key ID="STR_MU_ISAS_marker_flag">
+								<Original>Islamic State in Aegan Sea (ISAS)</Original>
+								<English>Islamic State in Aegan Sea (ISAS)</English>
+								<French>Etat Islamique en Mer Egée (EIME)</French>
+						</Key>
+						<Key ID="STR_MU_ISAS_flagpole">
+								<Original>Flag (ISAS)</Original>
+								<English>Flag (ISAS)</English>
+								<French>Drapeau (EIME)</French>
+						</Key>
+				</Container>
+				<Container name="MU islam grp">
+						<Key ID="STR_MU_factionname_islam">
+								<Original>ISAS</Original>
+								<English>ISAS</English>
+								<French>EIME</French>
+						</Key>
+						<Key ID="STR_MU_units_grp_islam">
+								<Original>Men</Original>
+								<English>Men</English>
+								<French>Hommes</French>
+						</Key>
+						<Key ID="STR_MU_grp_islam_InfWepTeam">
+								<Original>Weapons Team</Original>
+								<English>Weapons Team</English>
+								<French>Weapons Team</French>
+						</Key>
+						<Key ID="STR_MU_grp_islam_InfSupTeam">
+								<Original>Support Team</Original>
+								<English>Support Team</English>
+								<French>Equipe de soutien</French>
+						</Key>
+						<Key ID="STR_MU_grp_islam_InfHQ">
+								<Original>Infantry HQ</Original>
+								<English>Infantry HQ</English>
+								<French>QG Infanterie</French>
+						</Key>
+						<Key ID="STR_MU_grp_islam_Technicals">
+								<Original>Technicals</Original>
+								<English>Technicals</English>
+								<French>Technicals</French>
+						</Key>
+				</Container>
+				<Container name="MU islam units">
+						<Key ID="STR_MU_units_islam_R1">
+								<Original>Fighter (AKM)</Original>
+								<English>Fighter (AKM)</English>
+								<French>Combattant (AKM)</French>
+						</Key>
+						<Key ID="STR_MU_units_islam_R2">
+								<Original>Fighter (AK-12)</Original>
+								<English>Fighter (AK-12)</English>
+								<French>Combattant (AK-12)</French>
+						</Key>
+						<Key ID="STR_MU_units_islam_R3">
+								<Original>Fighter (AKM)</Original>
+								<English>Fighter (AKM)</English>
+								<French>Combattant (AKM)</French>
+						</Key>
+						<Key ID="STR_MU_units_islam_AT">
+								<Original>AT Specialist (RPG7)</Original>
+								<English>AT Specialist (RPG7)</English>
+								<French>Spécialiste AT (RPG7)</French>
+						</Key>
+						<Key ID="STR_MU_units_islam_HAT">
+								<Original>Missile Specialist (Vorona)</Original>
+								<English>Missile Specialist (Vorona)</English>
+								<French>Spécialiste AT (Vorona)</French>
+						</Key>
+				</Container>
+		</Package>
+</Project>
