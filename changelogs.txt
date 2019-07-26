@@ -4,6 +4,9 @@
 
 0 :CHANGELOGS
 
+Changelog v 2.8 :
+ - Use of Contact DLC content into current factions
+
 Changelog v 2.7 :
  - Added 36 guerilla uniform variants
  - Added AAF EOD Vest

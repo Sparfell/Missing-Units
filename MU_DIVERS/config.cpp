@@ -242,7 +242,8 @@ class CfgVehicles
 		};
 	};
 	class B_FieldPack_oli;
-	class O_MU_FieldPack_oli_CDT_AB : B_FieldPack_oli
+	class B_FieldPack_green_F;
+	class O_MU_FieldPack_oli_CDT_AB : B_FieldPack_green_F
 	{
 		scope = 1;
 		scopeCurator = 1;
@@ -283,7 +284,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class O_MU_FieldPack_oli_CDT_medic : B_FieldPack_oli
+	class O_MU_FieldPack_oli_CDT_medic : B_FieldPack_green_F
 	{
 		scope = 1;
 		scopeCurator = 1;

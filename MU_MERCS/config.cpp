@@ -29,6 +29,8 @@ class CfgPatches
 			"MU_MERC_Mohawk", 
 			"I_MU_mercs_Offroad_01_F", 
 			"I_MU_mercs_Offroad_01_armed_F", 
+			"I_MU_mercs_Offroad_01_covered",
+			"I_MU_mercs_Offroad_01_comms",
 			"I_MU_mercs_Quadbike_01_F", 
 			"I_MU_mercs_Offroad_01_repair_F",
 			"O_MU_mercs_Boat_Transport_01_F",

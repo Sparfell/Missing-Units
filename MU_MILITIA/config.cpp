@@ -45,6 +45,11 @@ class CfgPatches
 			"O_MU_MIL_rhib",
 			"O_MU_MIL_Van_02_vehicle",
 			"O_MU_MIL_Van_02_transport",
+			"O_MU_MIL_offroad",
+			"O_MU_MIL_offroad_comms",
+			"O_MU_MIL_offroad_covered",
+			"O_MU_MIL_offroad_repair",
+			"O_MU_MIL_offroad_armed",
 			"Flag_MU_MILITIA_F"
 		};
 		weapons[] = {};

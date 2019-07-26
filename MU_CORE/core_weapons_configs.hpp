@@ -602,8 +602,8 @@
 		};
 	};
 	
-	class LMG_Mk200_F;
-	class LMG_Mk200_Holo_pointer_snds_BI_MU_F : LMG_Mk200_F
+	class LMG_Mk200_black_F;
+	class LMG_Mk200_Holo_pointer_snds_BI_MU_F : LMG_Mk200_black_F
 	{
 		scope = 1;
 		scopeCurator = 1;
@@ -612,7 +612,7 @@
 			class LinkedItemsOptic
 			{
 				slot = "CowsSlot";
-				item = "optic_Holosight";
+				item = "optic_holosight_blk_f";
 			};
 			class LinkedItemsMuzzle
 			{
@@ -1082,7 +1082,8 @@
 		};
 	};
 	class arifle_AK12_F;
-	class arifle_AK12_ACO_pointer_snds_MU : arifle_AK12_F
+	class arifle_AK12U_F;
+	class arifle_AK12_ACO_pointer_snds_MU : arifle_AK12U_F
 	{
 		scope = 1;
 		scopeCurator = 1;
@@ -1105,7 +1106,7 @@
 			};
 		};
 	};
-	class arifle_AK12_Nstalker_pointer_snds_MU : arifle_AK12_F
+	class arifle_AK12_Nstalker_pointer_snds_MU : arifle_AK12U_F
 	{
 		scope = 1;
 		scopeCurator = 1;
@@ -1128,7 +1129,7 @@
 			};
 		};
 	};
-	class arifle_AK12_ARCO_pointer_snds_MU : arifle_AK12_F
+	class arifle_AK12_ARCO_pointer_snds_MU : arifle_AK12U_F
 	{
 		scope = 1;
 		scopeCurator = 1;
@@ -1142,7 +1143,7 @@
 			class LinkedItemsOptic
 			{
 				slot = "CowsSlot";
-				item = "optic_Arco_blk_F";
+				item = "optic_arco_ak_blk_f";
 			};
 			class LinkedItemsMuzzle
 			{
@@ -1191,6 +1192,30 @@
 			{
 				slot = "CowsSlot";
 				item = "optic_Arco_blk_F";
+			};
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_58_blk_F";
+			};
+		};
+	};
+	class arifle_RPK12_F;
+	class arifle_RPK12_ARCO_pointer_snds_MU : arifle_RPK12_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		class LinkedItems
+		{
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "acc_pointer_IR";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_arco_ak_blk_f";
 			};
 			class LinkedItemsMuzzle
 			{

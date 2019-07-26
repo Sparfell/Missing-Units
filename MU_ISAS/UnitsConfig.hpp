@@ -184,8 +184,8 @@
 		backpack = "B_MU_IS_AssaultPack_dgtl_AA";
 		linkedItems[] = {"V_TacVest_camo", "H_Bandanna_sand", "G_Bandanna_tan", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_camo", "H_Bandanna_sand", "G_Bandanna_tan", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		weapons[] = {"arifle_AKM_F", "launch_I_Titan_F", "hgun_Rook40_F", "Throw", "Put"};
-		respawnweapons[] = {"arifle_AKM_F", "launch_I_Titan_F", "hgun_Rook40_F", "Throw", "Put"};
+		weapons[] = {"arifle_AKM_F", "launch_B_Titan_olive_F", "hgun_Rook40_F", "Throw", "Put"};
+		respawnweapons[] = {"arifle_AKM_F", "launch_B_Titan_olive_F", "hgun_Rook40_F", "Throw", "Put"};
 		magazines[] = { "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "Titan_AA", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "SmokeShell", "SmokeShellGreen"};
 		Respawnmagazines[] = { "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "Titan_AA", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "SmokeShell", "SmokeShellGreen"};
 		MU_PREVIEW(O_MU_islam_AA_F);

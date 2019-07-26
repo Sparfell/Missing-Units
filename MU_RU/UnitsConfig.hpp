@@ -109,10 +109,10 @@
 		backpack = "B_MU_RUSP_TacticalPack_blk_eng";
 		linkedItems[] = {"V_PlateCarrier2_blk", "H_Bandanna_khk_hs", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"V_PlateCarrier2_blk", "H_Bandanna_khk_hs", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		weapons[] = {"SMG_02_Hamr_pointer_snds_MU_F", "hgun_Rook40_snds_F", "Throw", "Put"};
-		respawnweapons[] = {"SMG_02_Hamr_pointer_snds_MU_F", "hgun_Rook40_snds_F", "Throw", "Put"};
-		magazines[] = {"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellRed", "Chemlight_red", "Chemlight_red"};
-		Respawnmagazines[] = {"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellRed", "Chemlight_red", "Chemlight_red"};
+		weapons[] = {"arifle_AK12_ACO_pointer_snds_MU", "hgun_Rook40_snds_F", "Throw", "Put"};
+		respawnweapons[] = {"arifle_AK12_ACO_pointer_snds_MU", "hgun_Rook40_snds_F", "Throw", "Put"};
+		magazines[] = {"30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F", "30Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellRed", "Chemlight_red", "Chemlight_red"};
+		Respawnmagazines[] = {"30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F","30Rnd_762x39_AK12_Mag_F", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellRed", "Chemlight_red", "Chemlight_red"};
 		MU_PREVIEW(O_MU_RUSP_engineer_F);
 	};
 	class O_MU_RUSP_sniper_F : O_MU_RUSP_base_F
@@ -163,10 +163,10 @@
 		cost = 220000;
 		linkedItems[] = {"V_PlateCarrier2_blk", "H_HelmetSpecO_blk", "G_Balaclava_blk", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"V_PlateCarrier2_blk", "H_HelmetSpecO_blk", "G_Balaclava_blk", "NVGoggles_OPFOR", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		weapons[] = {"arifle_CTARS_blk_ARCO_pointer_snds_MU", "hgun_Rook40_snds_F", "Throw", "Put"};
-		respawnweapons[] = {"arifle_CTARS_blk_ARCO_pointer_snds_MU", "hgun_Rook40_snds_F", "Throw", "Put"};
-		magazines[] = {"100Rnd_580x42_Mag_F","100Rnd_580x42_Mag_F", "100Rnd_580x42_Mag_F", "100Rnd_580x42_Mag_F", "100Rnd_580x42_Mag_F", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "Chemlight_red"};
-		Respawnmagazines[] = {"100Rnd_580x42_Mag_F","100Rnd_580x42_Mag_F", "100Rnd_580x42_Mag_F", "100Rnd_580x42_Mag_F", "100Rnd_580x42_Mag_F", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "Chemlight_red"};
+		weapons[] = {"arifle_RPK12_ARCO_pointer_snds_MU", "hgun_Rook40_snds_F", "Throw", "Put"};
+		respawnweapons[] = {"arifle_RPK12_ARCO_pointer_snds_MU", "hgun_Rook40_snds_F", "Throw", "Put"};
+		magazines[] = {"75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "Chemlight_red"};
+		Respawnmagazines[] = {"75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F","75rnd_762x39_AK12_Mag_F", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "Chemlight_red"};
 		MU_PREVIEW(O_MU_RUSP_AR_F);
 	};
 	class O_MU_RUSP_A_F : O_MU_RUSP_base_F

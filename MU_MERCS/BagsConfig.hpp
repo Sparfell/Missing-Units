@@ -123,8 +123,8 @@
 			};
 		};
 	};
-	class B_Carryall_oli;
-	class B_MU_M_Carryall_oli_ammo : B_Carryall_oli
+	class B_Carryall_green_F;
+	class B_MU_M_Carryall_oli_ammo : B_Carryall_green_F
 	{
 		scope = 1;
 		scopeCurator = 1;

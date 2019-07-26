@@ -660,3 +660,128 @@
 		textureList[] = {"Black",1};
 		MU_PREVIEW(O_MU_MIL_rhib);
 	};
+	class I_G_Offroad_01_F;
+	class O_MU_MIL_offroad : I_G_Offroad_01_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_MILITIA_F";
+		crew = "O_MU_militia_RL_F";
+		typicalCargo[] = {"O_MU_militia_R_F"};
+		class textureSources
+		{
+			class MU_MIL_offroad_tex_black
+			{
+				displayName = "Black texture";
+				textures[] = {"\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa","\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa"};
+				faction[] = {"MU_MILITIA_F"};
+			};
+		};
+		textureList[] = {"MU_MIL_offroad_tex_black",1};
+		animationList[] = {"HideDoor1",0.1,"HideDoor2",0.1,"HideDoor3",0.1,"HideBumper1",1,"HideBumper2",0.5};
+		MU_PREVIEW(O_MU_MIL_offroad);
+	};
+	class Offroad_01_military_covered_base_F;
+	class O_MU_MIL_offroad_covered : Offroad_01_military_covered_base_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_MILITIA_F";
+		crew = "O_MU_militia_RL_F";
+		typicalCargo[] = {"O_MU_militia_R_F"};
+		class textureSources
+		{
+			class MU_MIL_offroad_tex_black
+			{
+				displayName = "Black texture";
+				textures[] = {"\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa","\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa","a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_cover_blk_co.paa"};
+				faction[] = {"MU_MILITIA_F"};
+			};
+		};
+		textureList[] = {"MU_MIL_offroad_tex_black",1};
+		animationList[] = {"HideRoofRack",1,"HideCover",0,"HideDoor3",0,"HideBumper1",1,"HideBumper2",0};
+		MU_PREVIEW(O_MU_MIL_offroad_covered);
+	};
+	class Offroad_01_military_comms_base_F;
+	class O_MU_MIL_offroad_comms : Offroad_01_military_comms_base_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_MILITIA_F";
+		crew = "O_MU_militia_RL_F";
+		typicalCargo[] = {"O_MU_militia_R_F"};
+		class textureSources
+		{
+			class MU_MIL_offroad_tex_black
+			{
+				displayName = "Black texture";
+				textures[] = {"\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa","\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa","a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_cover_blk_co.paa"};
+				faction[] = {"MU_MILITIA_F"};
+			};
+		};
+		textureList[] = {"MU_MIL_offroad_tex_black",1};
+		animationList[] = {"HideCover",0,"HideDoor3",0,"HideBumper1",1,"HideBumper2",0};
+		MU_PREVIEW(O_MU_MIL_offroad_comms);
+	};
+	class Offroad_01_repair_military_base_F;
+	class O_MU_MIL_offroad_repair : Offroad_01_repair_military_base_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_MILITIA_F";
+		crew = "O_MU_militia_RL_F";
+		typicalCargo[] = {"O_MU_militia_R_F"};
+		class textureSources
+		{
+			class MU_MIL_offroad_tex_black
+			{
+				displayName = "Black texture";
+				textures[] = {"\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa","\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa"};
+				faction[] = {"MU_MILITIA_F"};
+			};
+		};
+		textureList[] = {"MU_MIL_offroad_tex_black",1};
+		MU_PREVIEW(O_MU_MIL_offroad_repair);
+	};
+	class I_G_Offroad_01_armed_F;
+	class O_MU_MIL_offroad_armed : I_G_Offroad_01_armed_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_MILITIA_F";
+		crew = "O_MU_militia_R_F";
+		typicalCargo[] = {"O_MU_militia_R_F"};
+		class textureSources
+		{
+			class MU_MIL_offroad_tex_black
+			{
+				displayName = "Black texture";
+				textures[] = {"\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa","\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa"};
+				faction[] = {"MU_MILITIA_F"};
+			};
+		};
+		textureList[] = {"MU_MIL_offroad_tex_black",1};
+		animationList[] = {"HideDoor1",0.1,"HideDoor2",0.1,"HideDoor3",0.1,"HideBumper1",1,"HideBumper2",0.5};
+		MU_PREVIEW(O_MU_MIL_offroad_armed);
+	};
+		

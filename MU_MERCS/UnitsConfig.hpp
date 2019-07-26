@@ -262,10 +262,10 @@
 		secondaryAmmoCoef = 0.5;
 		uniformClass = "U_I_C_Soldier_Para_4_F";
 		backpack = "B_MU_M_AssaultPack_cbr_AT";
-		linkedItems[] = {"V_Chestrig_khk", "H_Booniehat_oli", "G_Bandanna_beast", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"V_Chestrig_khk", "H_Booniehat_oli", "G_Bandanna_beast", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		weapons[] = {"arifle_Mk20_plain_Holo_MU_F", "launch_RPG32_F", "hgun_P07_F", "Throw", "Put"};
-		respawnweapons[] = {"arifle_Mk20_plain_Holo_MU_F", "launch_RPG32_F", "hgun_P07_F", "Throw", "Put"};
+		linkedItems[] = {"V_Chestrig_khk", "H_Booniehat_mgrn", "G_Bandanna_beast", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"V_Chestrig_khk", "H_Booniehat_mgrn", "G_Bandanna_beast", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		weapons[] = {"arifle_Mk20_plain_Holo_MU_F", "launch_RPG32_green_F", "hgun_P07_F", "Throw", "Put"};
+		respawnweapons[] = {"arifle_Mk20_plain_Holo_MU_F", "launch_RPG32_green_F", "hgun_P07_F", "Throw", "Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "RPG32_F", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellYellow", "Chemlight_yellow", "Chemlight_yellow"};
 		Respawnmagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "RPG32_F", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellYellow", "Chemlight_yellow", "Chemlight_yellow"};
 		MU_PREVIEW(I_MU_mercs_AT_F);
@@ -285,8 +285,8 @@
 		backpack = "B_MU_M_AssaultPack_rgr_AA";
 		linkedItems[] = {"V_TacChestrig_grn_F", "H_Bandanna_surfer_blk", "G_Bandanna_khk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"V_TacChestrig_grn_F", "H_Bandanna_surfer_blk", "G_Bandanna_khk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		weapons[] = {"arifle_TRG20_F", "launch_B_Titan_F", "hgun_P07_F", "Throw", "Put"};
-		respawnweapons[] = {"arifle_TRG20_F", "launch_B_Titan_F", "hgun_P07_F", "Throw", "Put"};
+		weapons[] = {"arifle_TRG20_F", "launch_B_Titan_olive_F", "hgun_P07_F", "Throw", "Put"};
+		respawnweapons[] = {"arifle_TRG20_F", "launch_B_Titan_olive_F", "hgun_P07_F", "Throw", "Put"};
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "Titan_AA", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellYellow", "Chemlight_yellow", "Chemlight_yellow"};
 		Respawnmagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "Titan_AA", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellYellow", "Chemlight_yellow", "Chemlight_yellow"};
 		MU_PREVIEW(I_MU_mercs_AA_F);
@@ -382,15 +382,15 @@
 		cost = 250000;
 		camouflage = 1.6;
 		uniformClass = "U_IG_Guerilla2_1";
-		linkedItems[] = {"V_TacVest_camo", "H_MilCap_dgtl", "G_Aviator", "ItemGPS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo", "H_MilCap_dgtl", "G_Aviator", "ItemGPS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"V_TacVest_camo", "H_MilCap_grn", "G_Aviator", "ItemGPS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"V_TacVest_camo", "H_MilCap_grn", "G_Aviator", "ItemGPS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		weapons[] = {"SMG_05_F", "hgun_P07_F", "binocular", "Throw", "Put"};
 		respawnweapons[] = {"SMG_05_F", "hgun_P07_F", "binocular", "Throw", "Put"};
 		magazines[] = {"30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell", "SmokeShellBlue", "SmokeShellYellow", "Chemlight_yellow", "Chemlight_yellow"};
 		Respawnmagazines[] = {"30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell", "SmokeShellBlue", "SmokeShellYellow", "Chemlight_yellow", "Chemlight_yellow"};
 		headgearList[] =
 		{
-			"H_MilCap_dgtl",1,
+			"H_MilCap_grn",1,
 			"H_MilCap_gry",0.3,
 			"H_MU_MilCap_cbr",0.3,
 			"H_MU_MilCap_blk",0.3
