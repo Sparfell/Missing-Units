@@ -142,3 +142,29 @@
 		picture = "\A3\Characters_F_Exp\Headgear\Data\UI\icon_H_HelmetB_Light_tna_F_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Headgear\Data\H_HelmetB_Light_tna_F_co.paa"};
 	};
+	
+	//CSAT Helmets in black
+	class H_HelmetO_ocamo;
+	class H_MU_HelmetO_blk: H_HelmetO_ocamo
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		scopeArsenal = 2;
+		scopeCurator = 2;
+		displayName = "$STR_MU_headgears_HelmetO_blk";
+		picture = "\A3\Characters_F\data\ui\icon_H_HelmetO_spec_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3\characters_f\OPFOR\data\tech_rus_CO.paa"};
+	};
+	class H_HelmetLeaderO_ocamo;
+	class H_MU_HelmetLeaderO_blk: H_HelmetLeaderO_ocamo
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		scopeArsenal = 2;
+		scopeCurator = 2;
+		displayName = "$STR_MU_headgears_HelmetLeaderO_blk";
+		picture = "\A3\Characters_F\data\ui\icon_H_HelmetO_spec_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3\characters_f\OPFOR\data\tech_rus_CO.paa"};
+	};

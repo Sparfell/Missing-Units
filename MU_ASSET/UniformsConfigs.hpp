@@ -199,6 +199,22 @@
 			mass = 60;
 		};
 	};
+	class U_MU_O_CombatUniform_RUcamo : Uniform_Base
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = $STR_MU_u_CombatUniform_RUcamo;
+		picture = "\A3\characters_f_exp\data\ui\icon_U_OT_Soldier_F_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem {
+			uniformModel = "-";
+			uniformClass = "O_MU_CombatUniform_RUcamo_base";
+			containerClass = "Supply40";
+			mass = 80;
+		};
+	};
 	
 	
 	
@@ -208,7 +224,7 @@
 		author = "Sparfell"; \
 		dlc = "Missing_Units"; \
 		scope = 2; \
-		displayName = "$STR_MU_u_GuerillaGarment##col"; \
+		displayName = $STR_MU_u_GuerillaGarment##col; \
 		picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla1_1_ca.paa"; \
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d"; \
 		hiddenSelections[] = {"camo"}; \
@@ -216,7 +232,7 @@
 		class ItemInfo: UniformItem \
 		{ \
 			uniformModel = "-"; \
-			uniformClass = "B_MU_GuerillaGarment##uname##"; \
+			uniformClass = B_MU_GuerillaGarment##uname##; \
 			containerClass = "Supply30"; \
 			mass = 30; \
 		}; \
@@ -227,7 +243,7 @@
 		class ItemInfo: UniformItem \
 		{ \
 			uniformModel = "-"; \
-			uniformClass = "O_MU_GuerillaGarment##uname##"; \
+			uniformClass = O_MU_GuerillaGarment##uname##; \
 			containerClass = "Supply30"; \
 			mass = 30; \
 		}; \
@@ -238,7 +254,7 @@
 		class ItemInfo: UniformItem \
 		{ \
 			uniformModel = "-"; \
-			uniformClass = "I_MU_GuerillaGarment##uname##"; \
+			uniformClass = I_MU_GuerillaGarment##uname##; \
 			containerClass = "Supply30"; \
 			mass = 30; \
 		}; \
@@ -253,6 +269,7 @@
 	MU_uniform_gue(_yellow,_yellow_base)
 	MU_uniform_gue(_blue,_blue_base)
 	MU_uniform_gue(_dirty,_dirty_base)
+	MU_uniform_gue(_green,_green_base)
 	
 	//bas brun
 	MU_uniform_gue(2,2_base)
@@ -265,6 +282,7 @@
 	MU_uniform_gue(2_blue,2_blue_base)
 	MU_uniform_gue(2_olive,2_olive_base)
 	MU_uniform_gue(2_dirty,2_dirty_base)
+	MU_uniform_gue(2_green,2_green_base)
 	
 	//bas brun 2
 	MU_uniform_gue(3,3_base)
@@ -277,6 +295,25 @@
 	MU_uniform_gue(3_blue,3_blue_base)
 	MU_uniform_gue(3_olive,3_olive_base)
 	MU_uniform_gue(3_dirty,3_dirty_base)
+	MU_uniform_gue(3_green,3_green_base)
+	
+	// Bas camo LIV
+	MU_uniform_gue(8,8_base)
+	MU_uniform_gue(8_grey,8_grey_base)
+	MU_uniform_gue(8_skull,8_skull_base)
+	MU_uniform_gue(8_brown,8_brown_base)
+	MU_uniform_gue(8_olive,8_olive_base)
+	MU_uniform_gue(8_dirty,8_dirty_base)
+	MU_uniform_gue(8_green,8_green_base)
+	
+	//bas camo para
+	MU_uniform_gue(6,6_base)
+	MU_uniform_gue(6_grey,6_grey_base)
+	MU_uniform_gue(6_skull,6_skull_base)
+	MU_uniform_gue(6_brown,6_brown_base)
+	MU_uniform_gue(6_olive,6_olive_base)
+	MU_uniform_gue(6_dirty,6_dirty_base)
+	MU_uniform_gue(6_green,6_green_base)
 	
 	//jean
 	MU_uniform_gue(4,4_base)
@@ -289,6 +326,7 @@
 	MU_uniform_gue(4_blue,4_blue_base)
 	MU_uniform_gue(4_olive,4_olive_base)
 	MU_uniform_gue(4_dirty,4_dirty_base)
+	MU_uniform_gue(4_green,4_green_base)
 	
 	//jean 2
 	MU_uniform_gue(5,5_base)
@@ -301,12 +339,33 @@
 	MU_uniform_gue(5_blue,5_blue_base)
 	MU_uniform_gue(5_olive,5_olive_base)
 	MU_uniform_gue(5_dirty,5_dirty_base)
+	MU_uniform_gue(5_green,5_green_base)
+	
+	//jean black
+	MU_uniform_gue(7,7_base)
+	MU_uniform_gue(7_grey,7_grey_base)
+	MU_uniform_gue(7_redcamo,7_redcamo_base)
+	MU_uniform_gue(7_skull,7_skull_base)
+	MU_uniform_gue(7_brown,7_brown_base)
+	MU_uniform_gue(7_orange,7_orange_base)
+	MU_uniform_gue(7_yellow,7_yellow_base)
+	MU_uniform_gue(7_blue,7_blue_base)
+	MU_uniform_gue(7_olive,7_olive_base)
+	MU_uniform_gue(7_dirty,7_dirty_base)
+	MU_uniform_gue(7_green,7_green_base)
 	
 	//TankTop
 	MU_uniform_gue(_tank,_tank_base)
 	MU_uniform_gue(2_tank,2_tank_base)
 	MU_uniform_gue(3_tank,3_tank_base)
 	MU_uniform_gue(6_tank,6_tank_base)
+	MU_uniform_gue(8_tank,8_tank_base)
+	
+	//TankTop Green
+	MU_uniform_gue(_tank_g,_tank_g_base)
+	MU_uniform_gue(2_tank_g,2_tank_g_base)
+	MU_uniform_gue(3_tank_g,3_tank_g_base)
+	MU_uniform_gue(6_tank_g,6_tank_g_base)
 	
 	#undef MU_uniform_gue
 	
@@ -338,20 +397,14 @@
 		displayName="$STR_MU_u_Casual_white";
 		picture="\A3\characters_f\data\ui\icon_U_C_miller_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\A3\Characters_F\Civil\Data\ig_poloshirt_1_co.paa"
-		};
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\ig_poloshirt_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
 			uniformClass="B_MU_PoloshirtPants1_base";
-			containerClass="Supply20";
-			mass=40;
+			containerClass = "Supply30";
+			mass = 30;
 		};
 	};
 	class U_MU_PoloshirtPants2: Uniform_Base
@@ -362,19 +415,13 @@
 		displayName="$STR_MU_u_Casual_brown";
 		picture="\A3\characters_f\data\ui\icon_U_C_miller_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\A3\Characters_F\Civil\Data\ig_poloshirt_2_co.paa"
-		};
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\ig_poloshirt_2_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
 			uniformClass="B_MU_PoloshirtPants2_base";
-			containerClass="Supply20";
-			mass=40;
+			containerClass = "Supply30";
+			mass = 30;
 		};
 	};

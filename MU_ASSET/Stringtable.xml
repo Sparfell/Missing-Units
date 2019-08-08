@@ -84,6 +84,16 @@
 								<English>Light Combat Helmet 2 (Tropic)</English>
 								<French>Light Combat Helmet 2 (Tropic)</French>
 						</Key>
+						<Key ID="STR_MU_headgears_HelmetO_blk">
+								<Original>Protector Helmet (Black)</Original>
+								<English>Protector Helmet (Black)</English>
+								<French>Casque de protection (noir)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_HelmetLeaderO_blk">
+								<Original>Defender Helmet (Black)</Original>
+								<English>Defender Helmet (Black)</English>
+								<French>Casque de défense (noir)</French>
+						</Key>
 				</Container>
 				<Container name="MU else vests">
 						<Key ID="STR_MU_vest_platecarrier1_blk">
@@ -99,17 +109,52 @@
 						<Key ID="STR_MU_vest_platecarrier1_khk">
 								<Original>Carrier Lite (Khaki)</Original>
 								<English>Carrier Lite (Khaki)</English>
-								<French>Gilet léger (Khaki)</French>
+								<French>Gilet léger (kaki)</French>
 						</Key>
 						<Key ID="STR_MU_vest_platecarrier2_cbr">
 								<Original>Carrier Rig (Coyote)</Original>
 								<English>Carrier Rig (Coyote)</English>
-								<French>Gilet lourd (Coyote)</French>
+								<French>Gilet lourd (coyote)</French>
 						</Key>
 						<Key ID="STR_MU_vest_platecarrier2_khk">
 								<Original>Carrier Rig (Khaki)</Original>
 								<English>Carrier Rig (Khaki)</English>
-								<French>Gilet lourd (Khaki)</French>
+								<French>Gilet lourd (kaki)</French>
+						</Key>
+						<Key ID="STR_MU_vest_platecarrier2_2_khk">
+								<Original>Carrier Rig 2 (Khaki)</Original>
+								<English>Carrier Rig 2 (Khaki)</English>
+								<French>Gilet lourd 2 (kaki)</French>
+						</Key>
+						<Key ID="STR_MU_vest_platecarrier2_2_cbr">
+								<Original>Carrier Rig 2 (Coyote)</Original>
+								<English>Carrier Rig 2 (Coyote)</English>
+								<French>Gilet lourd 2 (coyote)</French>
+						</Key>
+						<Key ID="STR_MU_vest_platecarrier2_2_rgr">
+								<Original>Carrier Rig 2 (Green)</Original>
+								<English>Carrier Rig 2 (Green)</English>
+								<French>Gilet lourd 2 (vert)</French>
+						</Key>
+						<Key ID="STR_MU_vest_platecarrier2_2_blk">
+								<Original>Carrier Rig 2 (Black)</Original>
+								<English>Carrier Rig 2 (Black)</English>
+								<French>Gilet lourd 2 (noir)</French>
+						</Key>
+						<Key ID="STR_MU_vest_platecarrier2_2_tna">
+								<Original>Carrier Rig 2 (Tropic)</Original>
+								<English>Carrier Rig 2 (Tropic)</English>
+								<French>Gilet lourd 2 (tropiques)</French>
+						</Key>
+						<Key ID="STR_MU_vest_platecarrier2_2_wdl">
+								<Original>Carrier Rig 2 (Woodland)</Original>
+								<English>Carrier Rig 2 (Woodland)</English>
+								<French>Gilet lourd 2 (forêt)</French>
+						</Key>
+						<Key ID="STR_MU_vest_HarnessO_blk">
+								<Original>LBV Harness (Black)</Original>
+								<English>LBV Harness (Black)</English>
+								<French>Gilet à matériel (noir)</French>
 						</Key>
 						<Key ID="STR_MU_vest_Rebreather_rus">
 								<Original>Rebreather [RU]</Original>
@@ -131,27 +176,25 @@
 								<English>EOD Vest [AAF]</English>
 								<French>Veste de démineur [AAF]</French>
 						</Key>
-				</Container>
-				<Container name="MU else weapons">
-						<Key ID="STR_MU_weap_Mk20_camoO">
-								<Original>Mk20 5.56 mm (Opfor)</Original>
-								<English>Mk20 5.56 mm (Opfor)</English>
-								<French>Mk20 5.56 mm (Opfor)</French>
+						<Key ID="STR_MU_vest_chestrig_light_khk">
+								<Original>Chest Rig Light (Khaki)</Original>
+								<English>Chest Rig Light (Khaki)</English>
+								<French>Gilet modulable (kaki)</French>
 						</Key>
-						<Key ID="STR_MU_weap_Mk20C_camoO">
-								<Original>Mk20C 5.56 mm (Opfor)</Original>
-								<English>Mk20C 5.56 mm (Opfor)</English>
-								<French>Mk20C 5.56 mm (Opfor)</French>
+						<Key ID="STR_MU_vest_chestrig_light_rgr">
+								<Original>Chest Rig Light (Green)</Original>
+								<English>Chest Rig Light (Green)</English>
+								<French>Gilet modulable (vert)</French>
 						</Key>
-						<Key ID="STR_MU_weap_Mk20_GL_camoO">
-								<Original>Mk20 EGLM 5.56 mm (Opfor)</Original>
-								<English>Mk20 EGLM 5.56 mm (Opfor)</English>
-								<French>Mk20 EGLM 5.56 mm (Opfor)</French>
+						<Key ID="STR_MU_vest_chestrig_light_blk">
+								<Original>Chest Rig Light (Black)</Original>
+								<English>Chest Rig Light (Black)</English>
+								<French>Gilet modulable (noir)</French>
 						</Key>
-						<Key ID="STR_MU_weap_ACPC2_black">
-								<Original>ACP-C2 .45 ACP (Black)</Original>
-								<English>ACP-C2 .45 ACP (Black)</English>
-								<French>ACP-C2 .45 ACP (Noir)</French>
+						<Key ID="STR_MU_vest_chestrig_light_oli">
+								<Original>Chest Rig Light (Olive)</Original>
+								<English>Chest Rig Light (Olive)</English>
+								<French>Gilet modulable (olive)</French>
 						</Key>
 				</Container>
 				<Container name="MU else uniform">
@@ -210,6 +253,11 @@
 								<English>Wetsuit [RU]</English>
 								<French>Combinaison de plongée [RU]</French>
 						</Key>
+						<Key ID="STR_MU_u_CombatUniform_RUcamo">
+								<Original>Fatigues (RU)</Original>
+								<English>Fatigues (RU)</English>
+								<French>Treillis (RU)</French>
+						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment2">
 								<Original>Guerilla Garment 2</Original>
 								<English>Guerilla Garment 2</English>
@@ -229,6 +277,21 @@
 								<Original>Guerilla Garment Jean 2</Original>
 								<English>Guerilla Garment Jean 2</English>
 								<French>Vêtement guérilla Jean 2</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6">
+								<Original>Guerilla Garment Para</Original>
+								<English>Guerilla Garment Para</English>
+								<French>Vêtement guérilla Para</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7">
+								<Original>Guerilla Garment Jean 3</Original>
+								<English>Guerilla Garment Jean 3</English>
+								<French>Vêtement guérilla Jean 3</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8">
+								<Original>Guerilla Garment Livonia</Original>
+								<English>Guerilla Garment Livonia</English>
+								<French>Vêtement guérilla Livonie</French>
 						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment_grey">
 								<Original>Guerilla Garment (Camo Grey)</Original>
@@ -255,6 +318,21 @@
 								<English>Guerilla Garment Jean 2 (Camo Grey)</English>
 								<French>Vêtement guérilla Jean 2 (camo gris)</French>
 						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_grey">
+								<Original>Guerilla Garment Para (Camo Grey)</Original>
+								<English>Guerilla Garment Para (Camo Grey)</English>
+								<French>Vêtement guérilla Para (camo gris)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7_grey">
+								<Original>Guerilla Garment Jean 3 (Camo Grey)</Original>
+								<English>Guerilla Garment Jean 3 (Camo Grey)</English>
+								<French>Vêtement guérilla Jean 3 (camo gris)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_grey">
+								<Original>Guerilla Garment Livonia (Camo Grey)</Original>
+								<English>Guerilla Garment Livonia (Camo Grey)</English>
+								<French>Vêtement guérilla Livonie (camo gris)</French>
+						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment_redcamo">
 								<Original>Guerilla Garment (Camo Red)</Original>
 								<English>Guerilla Garment (Camo Red)</English>
@@ -279,6 +357,21 @@
 								<Original>Guerilla Garment Jean 2 (Camo Red)</Original>
 								<English>Guerilla Garment Jean 2 (Camo Red)</English>
 								<French>Vêtement guérilla Jean 2 (camo rouge)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_redcamo">
+								<Original>Guerilla Garment Para (Camo Red)</Original>
+								<English>Guerilla Garment Para (Camo Red)</English>
+								<French>Vêtement guérilla Para (camo rouge)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7_redcamo">
+								<Original>Guerilla Garment Jean 3 (Camo Red)</Original>
+								<English>Guerilla Garment Jean 3 (Camo Red)</English>
+								<French>Vêtement guérilla Jean 3 (camo rouge)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_redcamo">
+								<Original>Guerilla Garment Livonia (Camo Red)</Original>
+								<English>Guerilla Garment Livonia (Camo Red)</English>
+								<French>Vêtement guérilla Livonie (camo rouge)</French>
 						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment_skull">
 								<Original>Guerilla Garment (Skull)</Original>
@@ -305,6 +398,21 @@
 								<English>Guerilla Garment Jean 2 (Skull)</English>
 								<French>Vêtement guérilla Jean 2 (crâne)</French>
 						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_skull">
+								<Original>Guerilla Garment Para (Skull)</Original>
+								<English>Guerilla Garment Para (Skull)</English>
+								<French>Vêtement guérilla Para (crâne)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7_skull">
+								<Original>Guerilla Garment Jean 3 (Skull)</Original>
+								<English>Guerilla Garment Jean 3 (Skull)</English>
+								<French>Vêtement guérilla Jean 3 (crâne)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_skull">
+								<Original>Guerilla Garment Livonia (Skull)</Original>
+								<English>Guerilla Garment Livonia (Skull)</English>
+								<French>Vêtement guérilla Livonie (crâne)</French>
+						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment_brown">
 								<Original>Guerilla Garment (Brown)</Original>
 								<English>Guerilla Garment (Brown)</English>
@@ -329,6 +437,21 @@
 								<Original>Guerilla Garment Jean 2 (Brown)</Original>
 								<English>Guerilla Garment Jean 2 (Brown)</English>
 								<French>Vêtement guérilla Jean 2 (marron)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_brown">
+								<Original>Guerilla Garment Para (Brown)</Original>
+								<English>Guerilla Garment Para (Brown)</English>
+								<French>Vêtement guérilla Para (marron)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7_brown">
+								<Original>Guerilla Garment Jean 3 (Brown)</Original>
+								<English>Guerilla Garment Jean 3 (Brown)</English>
+								<French>Vêtement guérilla Jean 3 (marron)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_brown">
+								<Original>Guerilla Garment Livonia (Brown)</Original>
+								<English>Guerilla Garment Livonia (Brown)</English>
+								<French>Vêtement guérilla Livonie (marron)</French>
 						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment_orange">
 								<Original>Guerilla Garment (Orange)</Original>
@@ -355,6 +478,21 @@
 								<English>Guerilla Garment Jean 2 (Orange)</English>
 								<French>Vêtement guérilla Jean 2 (orange)</French>
 						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_orange">
+								<Original>Guerilla Garment Para (Orange)</Original>
+								<English>Guerilla Garment Para (Orange)</English>
+								<French>Vêtement guérilla Para (orange)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7_orange">
+								<Original>Guerilla Garment Jean 3 (Orange)</Original>
+								<English>Guerilla Garment Jean 3 (Orange)</English>
+								<French>Vêtement guérilla Jean 3 (orange)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_orange">
+								<Original>Guerilla Garment Livonia (Orange)</Original>
+								<English>Guerilla Garment Livonia (Orange)</English>
+								<French>Vêtement guérilla Livonie (orange)</French>
+						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment_yellow">
 								<Original>Guerilla Garment (Yellow)</Original>
 								<English>Guerilla Garment (Yellow)</English>
@@ -379,6 +517,21 @@
 								<Original>Guerilla Garment Jean 2 (Yellow)</Original>
 								<English>Guerilla Garment Jean 2 (Yellow)</English>
 								<French>Vêtement guérilla Jean 2 (jaune)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_yellow">
+								<Original>Guerilla Garment Para (Yellow)</Original>
+								<English>Guerilla Garment Para (Yellow)</English>
+								<French>Vêtement guérilla Para (jaune)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7_yellow">
+								<Original>Guerilla Garment Jean 3 (Yellow)</Original>
+								<English>Guerilla Garment Jean 3 (Yellow)</English>
+								<French>Vêtement guérilla Jean 3 (jaune)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_yellow">
+								<Original>Guerilla Garment Livonia (Yellow)</Original>
+								<English>Guerilla Garment Livonia (Yellow)</English>
+								<French>Vêtement guérilla Livonie (jaune)</French>
 						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment_blue">
 								<Original>Guerilla Garment (Blue)</Original>
@@ -405,6 +558,21 @@
 								<English>Guerilla Garment Jean 2 (Blue)</English>
 								<French>Vêtement guérilla Jean 2 (bleu)</French>
 						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_blue">
+								<Original>Guerilla Garment Para (Blue)</Original>
+								<English>Guerilla Garment Para (Blue)</English>
+								<French>Vêtement guérilla Para (bleu)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7_blue">
+								<Original>Guerilla Garment Jean 3 (Blue)</Original>
+								<English>Guerilla Garment Jean 3 (Blue)</English>
+								<French>Vêtement guérilla Jean 3 (bleu)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_blue">
+								<Original>Guerilla Garment Livonia (Blue)</Original>
+								<English>Guerilla Garment Livonia (Blue)</English>
+								<French>Vêtement guérilla Livonie (bleu)</French>
+						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment2_olive">
 								<Original>Guerilla Garment 2 (Olive)</Original>
 								<English>Guerilla Garment 2 (Olive)</English>
@@ -424,6 +592,21 @@
 								<Original>Guerilla Garment Jean 2 (Olive)</Original>
 								<English>Guerilla Garment Jean 2 (Olive)</English>
 								<French>Vêtement guérilla Jean 2 (olive)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_olive">
+								<Original>Guerilla Garment Para (Olive)</Original>
+								<English>Guerilla Garment Para (Olive)</English>
+								<French>Vêtement guérilla Para (olive)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7_olive">
+								<Original>Guerilla Garment Jean 3 (Olive)</Original>
+								<English>Guerilla Garment Jean 3 (Olive)</English>
+								<French>Vêtement guérilla Jean 3 (olive)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_olive">
+								<Original>Guerilla Garment Livonia (Olive)</Original>
+								<English>Guerilla Garment Livonia (Olive)</English>
+								<French>Vêtement guérilla Livonie (olive)</French>
 						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment_dirty">
 								<Original>Guerilla Garment (Dirty)</Original>
@@ -450,6 +633,61 @@
 								<English>Guerilla Garment Jean 2 (Dirty)</English>
 								<French>Vêtement guérilla Jean 2 (sale)</French>
 						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_dirty">
+								<Original>Guerilla Garment Para (Dirty)</Original>
+								<English>Guerilla Garment Para (Dirty)</English>
+								<French>Vêtement guérilla Para (sale)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7_dirty">
+								<Original>Guerilla Garment Jean 3 (Dirty)</Original>
+								<English>Guerilla Garment Jean 3 (Dirty)</English>
+								<French>Vêtement guérilla Jean 3 (sale)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_dirty">
+								<Original>Guerilla Garment Livonia (Dirty)</Original>
+								<English>Guerilla Garment Livonia (Dirty)</English>
+								<French>Vêtement guérilla Livonie (sale)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_green">
+								<Original>Guerilla Garment (Green)</Original>
+								<English>Guerilla Garment (Green)</English>
+								<French>Vêtement guérilla (vert)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_green">
+								<Original>Guerilla Garment 2 (Green)</Original>
+								<English>Guerilla Garment 2 (Green)</English>
+								<French>Vêtement guérilla 2 (vert)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_green">
+								<Original>Guerilla Garment 3 (Green)</Original>
+								<English>Guerilla Garment 3 (Green)</English>
+								<French>Vêtement guérilla 3 (vert)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment4_green">
+								<Original>Guerilla Garment Jean (Green)</Original>
+								<English>Guerilla Garment Jean (Green)</English>
+								<French>Vêtement guérilla Jean (vert)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment5_green">
+								<Original>Guerilla Garment Jean 2 (Green)</Original>
+								<English>Guerilla Garment Jean 2 (Green)</English>
+								<French>Vêtement guérilla Jean 2 (vert)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_green">
+								<Original>Guerilla Garment Para (Green)</Original>
+								<English>Guerilla Garment Para (Green)</English>
+								<French>Vêtement guérilla Para (vert)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment7_green">
+								<Original>Guerilla Garment Jean 3 (Green)</Original>
+								<English>Guerilla Garment Jean 3 (Green)</English>
+								<French>Vêtement guérilla Jean 3 (vert)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_green">
+								<Original>Guerilla Garment Livonia (Green)</Original>
+								<English>Guerilla Garment Livonia (Green)</English>
+								<French>Vêtement guérilla Livonie (vert)</French>
+						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment_tank">
 								<Original>Guerilla Garment (Tank Top)</Original>
 								<English>Guerilla Garment (Tank Top)</English>
@@ -465,10 +703,35 @@
 								<English>Guerilla Garment 3 (Tank Top)</English>
 								<French>Vêtement guérilla 3 (débardeur)</French>
 						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment8_tank">
+								<Original>Guerilla Garment Livonia (Tank Top)</Original>
+								<English>Guerilla Garment Livonia (Tank Top)</English>
+								<French>Vêtement guérilla Livonie (débardeur)</French>
+						</Key>
 						<Key ID="STR_MU_u_GuerillaGarment6_tank">
 								<Original>Guerilla Garment Para (Tank Top)</Original>
 								<English>Guerilla Garment Para (Tank Top)</English>
 								<French>Vêtement guérilla Para (débardeur)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment_tank_g">
+								<Original>Guerilla Garment (Tank Top Green)</Original>
+								<English>Guerilla Garment (Tank Top Green)</English>
+								<French>Vêtement guérilla (débardeur vert)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment2_tank_g">
+								<Original>Guerilla Garment 2 (Tank Top Green)</Original>
+								<English>Guerilla Garment 2 (Tank Top Green)</English>
+								<French>Vêtement guérilla 2 (débardeur vert)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment3_tank_g">
+								<Original>Guerilla Garment 3 (Tank Top Green)</Original>
+								<English>Guerilla Garment 3 (Tank Top Green)</English>
+								<French>Vêtement guérilla 3 (débardeur vert)</French>
+						</Key>
+						<Key ID="STR_MU_u_GuerillaGarment6_tank_g">
+								<Original>Guerilla Garment Para (Tank Top Green)</Original>
+								<English>Guerilla Garment Para (Tank Top Green)</English>
+								<French>Vêtement guérilla Para (débardeur vert)</French>
 						</Key>
 						<Key ID="STR_MU_u_Protagonist_VR_nolight">
 								<Original>VR Suit</Original>

@@ -33,7 +33,8 @@ class CfgPatches {
 			"V_MU_PlateCarrier1_khk",
 			"V_MU_PlateCarrier2_cbr",
 			"V_MU_PlateCarrier2_khk",
-			"V_MU_Rebreather_rus"
+			"V_MU_Rebreather_rus",
+			"V_MU_Chestrig_light_khk"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"MU_core", "A3_Characters_F", "A3_Weapons_F"};

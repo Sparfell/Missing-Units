@@ -113,11 +113,21 @@
 		hiddenSelections[] = {"Camo1","Camo2","insignia"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\diver_suit_co.paa","\A3\Characters_F\Common\Data\diver_equip_co.paa"};
 	};
+	class O_Soldier_F;
+	class O_MU_CombatUniform_RUcamo_base : O_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 0;
+		scopeArsenal = 1;
+		displayName = "Fatigues ru base";
+		uniformClass = "U_MU_O_CombatUniform_RUcamo";
+		hiddenSelections[] = {"Camo1","Camo2"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\OPFOR\Data\clothing_rus_co.paa","\A3\Characters_F\OPFOR\Data\tech_CO.paa"};
+	};
 
 	//GUERILLA
 
 	class B_G_Soldier_F;
-	
 	
 	#define MU_uniform_gue_unit(col,tex,uname,modelp,tex2) \
 	class B_MU_GuerillaGarment##col : B_G_Soldier_F \
@@ -125,10 +135,10 @@
 		scope = 1; \
 		scopeCurator = 0; \
 		scopeArsenal = 1; \
-		displayName = "Guerrila_garment##col"; \
+		displayName = Guerrila_garment##col; \
 		uniformClass = U_MU_B_GuerillaGarment##uname##; \
 		model = ##modelp##; \
-		hiddenSelections[] = {"camo1","camo2"}; \
+		hiddenSelections[] = {"camo1","camo2","camo3"}; \
 		hiddenSelectionsTextures[] = {##tex##,##tex2##}; \
 	}; \
 	class O_MU_GuerillaGarment##col : B_MU_GuerillaGarment##col \
@@ -151,7 +161,7 @@
 	MU_uniform_gue_unit(_yellow_base,"A3\Characters_F\Civil\Data\c_cloth1_v2_co.paa",_yellow,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa")
 	MU_uniform_gue_unit(_blue_base,"A3\Characters_F\Civil\Data\c_cloth1_co.paa",_blue,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa")
 	MU_uniform_gue_unit(_dirty_base,"a3\Characters_F_Orange\Uniforms\Data\c_mechanic_01_camo1_co.paa",_dirty,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa")
-	
+	MU_uniform_gue_unit(_green_base,"A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_1_co.paa",_green,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa")
 
 	// Bas brun	
 	MU_uniform_gue_unit(2_base,"\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_co.paa",2,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa")
@@ -164,8 +174,8 @@
 	MU_uniform_gue_unit(2_blue_base,"A3\Characters_F\Civil\Data\c_cloth1_co.paa",2_blue,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa")
 	MU_uniform_gue_unit(2_olive_base,"a3\Characters_F_Orange\Uniforms\Data\c_cloth1_olive_co.paa",2_olive,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa")
 	MU_uniform_gue_unit(2_dirty_base,"a3\Characters_F_Orange\Uniforms\Data\c_mechanic_01_camo1_co.paa",2_dirty,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa")
-	
-	
+	MU_uniform_gue_unit(2_green_base,"A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_1_co.paa",2_green,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa")
+
 	// Bas brun	2
 	MU_uniform_gue_unit(3_base,"\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_co.paa",3,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa")
 	MU_uniform_gue_unit(3_grey_base,"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_co.paa",3_grey,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa")
@@ -177,8 +187,26 @@
 	MU_uniform_gue_unit(3_blue_base,"A3\Characters_F\Civil\Data\c_cloth1_co.paa",3_blue,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa")
 	MU_uniform_gue_unit(3_olive_base,"a3\Characters_F_Orange\Uniforms\Data\c_cloth1_olive_co.paa",3_olive,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa")
 	MU_uniform_gue_unit(3_dirty_base,"a3\Characters_F_Orange\Uniforms\Data\c_mechanic_01_camo1_co.paa",3_dirty,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa")
+	MU_uniform_gue_unit(3_green_base,"A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_1_co.paa",3_green,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa")
+
+	// Bas camo LIV
+	MU_uniform_gue_unit(8_base,"\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_co.paa",8,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_2_co.paa")
+	MU_uniform_gue_unit(8_grey_base,"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_co.paa",8_grey,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_2_co.paa")
+	MU_uniform_gue_unit(8_skull_base,"\a3\characters_f_gamma\Civil\Data\c_cloth1_black.paa",8_skull,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_2_co.paa")
+	MU_uniform_gue_unit(8_brown_base,"\a3\characters_f_gamma\Civil\Data\c_cloth1_brown.paa",8_brown,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_2_co.paa")
+	MU_uniform_gue_unit(8_olive_base,"a3\Characters_F_Orange\Uniforms\Data\c_cloth1_olive_co.paa",8_olive,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_2_co.paa")
+	MU_uniform_gue_unit(8_dirty_base,"a3\Characters_F_Orange\Uniforms\Data\c_mechanic_01_camo1_co.paa",8_dirty,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_2_co.paa")
+	MU_uniform_gue_unit(8_green_base,"A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_1_co.paa",8_green,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_2_co.paa")
 	
-	
+	// Bas camo Para
+	MU_uniform_gue_unit(6_base,"\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_co.paa",6,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa")
+	MU_uniform_gue_unit(6_grey_base,"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_co.paa",6_grey,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa")
+	MU_uniform_gue_unit(6_skull_base,"\a3\characters_f_gamma\Civil\Data\c_cloth1_black.paa",6_skull,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa")
+	MU_uniform_gue_unit(6_brown_base,"\a3\characters_f_gamma\Civil\Data\c_cloth1_brown.paa",6_brown,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa")
+	MU_uniform_gue_unit(6_olive_base,"a3\Characters_F_Orange\Uniforms\Data\c_cloth1_olive_co.paa",6_olive,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa")
+	MU_uniform_gue_unit(6_dirty_base,"a3\Characters_F_Orange\Uniforms\Data\c_mechanic_01_camo1_co.paa",6_dirty,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa")
+	MU_uniform_gue_unit(6_green_base,"A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_1_co.paa",6_green,"\A3\characters_F_gamma\Guerrilla\ig_guerrilla1_1.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa")
+
 	// Jean
 	MU_uniform_gue_unit(4_base,"\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_co.paa",4,"\a3\Characters_F\Civil\I_C_Soldier_Bandit_3_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
 	MU_uniform_gue_unit(4_grey_base,"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_co.paa",4_grey,"\a3\Characters_F\Civil\I_C_Soldier_Bandit_3_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
@@ -190,8 +218,8 @@
 	MU_uniform_gue_unit(4_blue_base,"A3\Characters_F\Civil\Data\c_cloth1_co.paa",4_blue,"\a3\Characters_F\Civil\I_C_Soldier_Bandit_3_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
 	MU_uniform_gue_unit(4_olive_base,"a3\Characters_F_Orange\Uniforms\Data\c_cloth1_olive_co.paa",4_olive,"\a3\Characters_F\Civil\I_C_Soldier_Bandit_3_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
 	MU_uniform_gue_unit(4_dirty_base,"a3\Characters_F_Orange\Uniforms\Data\c_mechanic_01_camo1_co.paa",4_dirty,"\a3\Characters_F\Civil\I_C_Soldier_Bandit_3_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
-	
-	
+	MU_uniform_gue_unit(4_green_base,"A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_1_co.paa",4_green,"\a3\Characters_F\Civil\I_C_Soldier_Bandit_3_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
+
 	// Jean 2
 	MU_uniform_gue_unit(5_base,"\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_co.paa",5,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
 	MU_uniform_gue_unit(5_grey_base,"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_co.paa",5_grey,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
@@ -203,13 +231,33 @@
 	MU_uniform_gue_unit(5_blue_base,"A3\Characters_F\Civil\Data\c_cloth1_co.paa",5_blue,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
 	MU_uniform_gue_unit(5_olive_base,"a3\Characters_F_Orange\Uniforms\Data\c_cloth1_olive_co.paa",5_olive,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
 	MU_uniform_gue_unit(5_dirty_base,"a3\Characters_F_Orange\Uniforms\Data\c_mechanic_01_camo1_co.paa",5_dirty,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
+	MU_uniform_gue_unit(5_green_base,"A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_1_co.paa",5_green,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","\a3\Characters_F_Orange\Uniforms\Data\c_idap_man_JeansB_co.paa")
 	
+	// Jean Noir
+	MU_uniform_gue_unit(7_base,"\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_co.paa",7,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
+	MU_uniform_gue_unit(7_grey_base,"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_co.paa",7_grey,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
+	MU_uniform_gue_unit(7_redcamo_base,"\A3\Characters_F\Civil\Data\c_cloth1_bandit_co.paa",7_redcamo,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
+	MU_uniform_gue_unit(7_skull_base,"\a3\characters_f_gamma\Civil\Data\c_cloth1_black.paa",7_skull,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
+	MU_uniform_gue_unit(7_brown_base,"\a3\characters_f_gamma\Civil\Data\c_cloth1_brown.paa",7_brown,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
+	MU_uniform_gue_unit(7_orange_base,"A3\Characters_F\Civil\Data\c_cloth1_v3_co.paa",7_orange,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
+	MU_uniform_gue_unit(7_yellow_base,"A3\Characters_F\Civil\Data\c_cloth1_v2_co.paa",7_yellow,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
+	MU_uniform_gue_unit(7_blue_base,"A3\Characters_F\Civil\Data\c_cloth1_co.paa",7_blue,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
+	MU_uniform_gue_unit(7_olive_base,"a3\Characters_F_Orange\Uniforms\Data\c_cloth1_olive_co.paa",7_olive,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
+	MU_uniform_gue_unit(7_dirty_base,"a3\Characters_F_Orange\Uniforms\Data\c_mechanic_01_camo1_co.paa",7_dirty,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
+	MU_uniform_gue_unit(7_green_base,"A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_1_co.paa",7_green,"a3\Characters_F_Orange\Uniforms\C_Mechanic_01_F.p3d","a3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_tshirt_black_2_co.paa")
 	
 	// Tank top
 	MU_uniform_gue_unit(_tank_base,"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1_co.paa",_tank,"\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d","a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa")
 	MU_uniform_gue_unit(2_tank_base,"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1_co.paa",2_tank,"\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d","\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa")
 	MU_uniform_gue_unit(3_tank_base,"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1_co.paa",3_tank,"\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa")
 	MU_uniform_gue_unit(6_tank_base,"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_1_co.paa",6_tank,"\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa")
+	MU_uniform_gue_unit(8_tank_base,"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1_co.paa",8_tank,"\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d","A3\Characters_F_Enoch\Uniforms\Data\I_L_Uniform_01_Deserter_2_co.paa")
+
+	//Tank top green
+	MU_uniform_gue_unit(_tank_g_base,"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_tanktop_co.paa",_tank_g,"\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d","a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa")
+	MU_uniform_gue_unit(2_tank_g_base,"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_tanktop_co.paa",2_tank_g,"\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d","\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa")
+	MU_uniform_gue_unit(3_tank_g_base,"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_tanktop_co.paa",3_tank_g,"\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa")
+	MU_uniform_gue_unit(6_tank_g_base,"a3\characters_f_enoch\uniforms\data\i_e_soldier_01_tanktop_co.paa",6_tank_g,"\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa")
 	
 	
 	#undef MU_uniform_gue_unit
@@ -225,82 +273,22 @@
 		hiddenSelections[] = {"camo_stripes"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\basicbody_black_co.paa"};
 	};
-	class B_Soldier_base_F;
-	class B_MU_PoloshirtPants1_base: B_Soldier_base_F
+	class C_Man_casual_1_F;
+	class B_MU_PoloshirtPants1_base: C_Man_casual_1_F
 	{
 		scope = 1;
 		scopeCurator = 0;
 		scopeArsenal = 1;
 		displayName = "Civilian Clothes";
 		uniformClass = "U_MU_PoloshirtPants1";
-		model="\A3\Characters_F\Civil\c_poloshirtpants.p3d";
-		modelSides[]={3,1};
-		hiddenSelectionsTextures[]=
-		{
-			"\A3\Characters_F\Civil\Data\ig_poloshirt_1_co.paa"
-		};
-		class Wounds
-		{
-			tex[]={};
-			mat[]=
-			{
-				"A3\Characters_F\Civil\Data\c_poloshirtpants.rvmat",
-				"A3\Characters_F\Civil\Data\c_poloshirtpants_injury.rvmat",
-				"A3\Characters_F\Civil\Data\c_poloshirtpants_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
-			};
-		};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\ig_poloshirt_1_co.paa"};
 	};
-	class B_MU_PoloshirtPants2_base: B_Soldier_base_F
+	class B_MU_PoloshirtPants2_base: C_Man_casual_1_F
 	{
 		scope = 1;
 		scopeCurator = 0;
 		scopeArsenal = 1;
 		displayName = "Civilian Clothes";
 		uniformClass = "U_MU_PoloshirtPants2";
-		model="\A3\Characters_F\Civil\c_poloshirtpants.p3d";
-		modelSides[]={3,1};
-		hiddenSelectionsTextures[]=
-		{
-			"\A3\Characters_F\Civil\Data\ig_poloshirt_2_co.paa"
-		};
-		class Wounds
-		{
-			tex[]={};
-			mat[]=
-			{
-				"A3\Characters_F\Civil\Data\c_poloshirtpants.rvmat",
-				"A3\Characters_F\Civil\Data\c_poloshirtpants_injury.rvmat",
-				"A3\Characters_F\Civil\Data\c_poloshirtpants_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
-			};
-		};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Civil\Data\ig_poloshirt_2_co.paa"};
 	};
