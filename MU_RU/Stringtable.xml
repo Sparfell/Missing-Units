@@ -25,13 +25,6 @@
 								<French>Hommes (Russie)</French>
 						</Key>
 				</Container>
-				<Container name="MU Russian spetsnaz uniform">
-						<Key ID="STR_MU_uniform_RUSP_rucamo">
-								<Original>Fatigues (RU)</Original>
-								<English>Fatigues (RU)</English>
-								<French>Treillis (RU)</French>
-						</Key>
-				</Container>
 				<Container name="MU Russian spetsnaz units">
 						<Key ID="STR_MU_units_RUSP_RN">
 								<Original>Rifleman (night)</Original>

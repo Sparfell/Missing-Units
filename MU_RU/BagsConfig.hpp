@@ -5,11 +5,6 @@
 		scopeCurator = 1;
 		class TransportMagazines
 		{
-			class _xx_30Rnd_762x39_AK12_Mag_Tracer_F
-			{
-				magazine = "30Rnd_762x39_AK12_Mag_Tracer_F";
-				count = 2;
-			};
 			class _xx_30Rnd_762x39_AK12_Mag_F
 			{
 				magazine = "30Rnd_762x39_AK12_Mag_F";
@@ -18,7 +13,7 @@
 			class _xx_1Rnd_HE_Grenade_shell
 			{
 				magazine = "1Rnd_HE_Grenade_shell";
-				count = 10;
+				count = 6;
 			};
 			class _xx_UGL_FlareRed_F
 			{
@@ -38,11 +33,6 @@
 			class _xx_1Rnd_SmokeRed_Grenade_shell
 			{
 				magazine = "1Rnd_SmokeRed_Grenade_shell";
-				count = 2;
-			};
-			class _xx_1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine = "1Rnd_SmokeBlue_Grenade_shell";
 				count = 2;
 			};
 		};
@@ -101,7 +91,8 @@
 			};
 		};
 	};
-	class B_MU_RUSP_TacticalPack_blk_A : B_TacticalPack_blk
+	class B_MU_Carryall_blk;
+	class B_MU_RUSP_Carryall_blk_A : B_MU_Carryall_blk
 	{
 		scope = 1;
 		scopeCurator = 1;
@@ -118,16 +109,16 @@
 			class _xx_30Rnd_762x39_AK12_Mag_F
 			{
 				magazine = "30Rnd_762x39_AK12_Mag_F";
-				count = 4;
+				count = 2;
 			};
 			class _xx_30Rnd_762x39_AK12_Mag_Tracer_F
 			{
 				magazine = "30Rnd_762x39_AK12_Mag_Tracer_F";
 				count = 2;
 			};
-			class _xx_100Rnd_580x42_Mag_F
+			class _xx_75rnd_762x39_AK12_Mag_F
 			{
-				magazine = "100Rnd_580x42_Mag_F";
+				magazine = "75rnd_762x39_AK12_Mag_F";
 				count = 2;
 			};
 			class _xx_HandGrenade
@@ -152,8 +143,9 @@
 			};
 		};
 	};
+	class B_MU_RUSP_TacticalPack_blk_A: B_MU_RUSP_Carryall_blk_A {}; //legacy
 	class B_AssaultPack_rgr;
-	class B_MU_RUSP_AssaultPack_rgr_AT : B_AssaultPack_rgr // Not used anymore
+	class B_MU_RUSP_AssaultPack_rgr_AT : B_AssaultPack_rgr //legacy
 	{
 		scope = 1;
 		scopeCurator = 1;
