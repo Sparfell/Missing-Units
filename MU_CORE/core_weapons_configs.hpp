@@ -1,4 +1,43 @@
 	class arifle_MX_Black_F;
+	class arifle_MX_GL_Black_F;
+	class arifle_MX_SW_Black_F;
+	class arifle_MXM_Black_F;
+	class arifle_MXC_Black_F;
+	class arifle_Mk20C_F;
+	class arifle_Mk20_F;
+	class arifle_Mk20_GL_F;
+	class arifle_Mk20_plain_F;
+	class arifle_Katiba_F;
+	class arifle_Katiba_C_F;
+	class arifle_Katiba_GL_F;
+	class arifle_AK12_F;
+	class arifle_AK12_GL_F;
+	class arifle_AK12U_F;
+	class arifle_RPK12_F;
+	class arifle_SPAR_01_blk_F;
+	class arifle_SPAR_01_GL_blk_F;
+	class arifle_CTARS_blk_F;
+	class arifle_TRG20_F;
+	class arifle_TRG21_F;
+	class arifle_TRG21_GL_F;
+	class SMG_02_F;
+	class SMG_03C_khaki;
+	class SMG_03C_camo;
+	class srifle_GM6_F;
+	class srifle_GM6_camo_F;
+	class srifle_LRR_F;
+	class srifle_EBR_F;
+	class srifle_DMR_02_F;
+	class srifle_DMR_03_woodland_F;
+	class srifle_DMR_04_F;
+	class srifle_DMR_05_blk_F;
+	class srifle_DMR_06_olive_F;
+	class srifle_DMR_06_hunter_F;
+	class LMG_Zafir_F;
+	class LMG_Mk200_black_F;
+	class MMG_01_tan_F;
+	class hgun_Pistol_heavy_01_F;
+	
 	class arifle_MX_Black_ACO_pointer_MU_F : arifle_MX_Black_F
 	{
 		scope = 1;
@@ -98,7 +137,6 @@
 		};
 	};
 	
-	class arifle_MX_GL_Black_F;	
 	class arifle_MX_GL_Black_MRCO_pointer_MU_F : arifle_MX_GL_Black_F
 	{
 		scope = 1;
@@ -141,7 +179,6 @@
 		};
 	};
 	
-	class arifle_MX_SW_Black_F;
 	class arifle_MX_SW_Black_pointer_BI_MU_F : arifle_MX_SW_Black_F
 	{
 		scope = 1;
@@ -220,7 +257,6 @@
 		};
 	};
 	
-	class arifle_MXM_Black_F;
 	class arifle_MXM_Black_Hamr_pointer_BI_MU_F : arifle_MXM_Black_F
 	{
 		scope = 1;
@@ -263,7 +299,6 @@
 		};
 	};
 	
-	class arifle_MXC_Black_F;
 	class arifle_MXC_Black_MRCO_pointer_MU_F : arifle_MXC_Black_F
 	{
 		scope = 1;
@@ -397,7 +432,6 @@
 		};
 	};
 	
-	class srifle_LRR_F;
 	class srifle_LRR_LRPS_MU_F : srifle_LRR_F
 	{
 		scope = 1;
@@ -412,7 +446,6 @@
 		};
 	};
 	
-	class arifle_Mk20C_F;
 	class arifle_Mk20C_ACO_pointer_snds_MU_F : arifle_Mk20C_F
 	{
 		scope = 1;
@@ -501,7 +534,6 @@
 		};
 	};
 	
-	class arifle_Mk20_F;
 	class arifle_Mk20_TWS_pointer_snds_MU_F : arifle_Mk20_F
 	{
 		scope = 1;
@@ -526,7 +558,6 @@
 		};
 	};
 	
-	class arifle_Mk20_GL_F;
 	class arifle_Mk20_GL_ACO_pointer_snds_MU_F : arifle_Mk20_GL_F
 	{
 		scope = 1;
@@ -551,7 +582,6 @@
 		};
 	};
 	
-	class srifle_EBR_F;
 	class srifle_EBR_Hamr_pointer_MU_F : srifle_EBR_F
 	{
 		scope = 1;
@@ -602,7 +632,6 @@
 		};
 	};
 	
-	class LMG_Mk200_black_F;
 	class LMG_Mk200_Holo_pointer_snds_BI_MU_F : LMG_Mk200_black_F
 	{
 		scope = 1;
@@ -632,7 +661,6 @@
 		};
 	};
 	
-	class arifle_Katiba_F;
 	class arifle_Katiba_Hamr_MU_F : arifle_Katiba_F
 	{
 		scope = 1;
@@ -683,7 +711,6 @@
 		};
 	};
 	
-	class LMG_Zafir_F;
 	class LMG_Zafir_Holo_MU_F : LMG_Zafir_F
 	{
 		scope = 1;
@@ -716,7 +743,6 @@
 		};
 	};
 	
-	class arifle_Mk20_plain_F;
 	class arifle_Mk20_plain_Holo_MU_F : arifle_Mk20_plain_F
 	{
 		scope = 1;
@@ -744,7 +770,6 @@
 		};
 	};
 
-	class srifle_GM6_F;
 	class srifle_GM6_LRPS_MU_F : srifle_GM6_F
 	{
 		scope = 1;
@@ -772,7 +797,6 @@
 		};
 	};
 
-	class arifle_TRG21_F;
 	class arifle_TRG21_ACO_MU_F :arifle_TRG21_F
 	{
 		scope = 1;
@@ -800,7 +824,6 @@
 		};
 	};
 	
-	class arifle_TRG20_F;
 	class arifle_TRG20_ACO_MU_F :arifle_TRG20_F
 	{
 		scope = 1;
@@ -815,7 +838,6 @@
 		};
 	};
 
-	class srifle_GM6_camo_F;
 	class srifle_GM6_camo_SOS_MU_F : srifle_GM6_camo_F
 	{
 		scope = 1;
@@ -830,7 +852,6 @@
 		};
 	};
 	
-	class arifle_Katiba_C_F;
 	class arifle_Katiba_C_Hamr_pointer_snds_MU_F : arifle_Katiba_C_F
 	{
 		scope = 1;
@@ -878,7 +899,6 @@
 		};
 	};
 	
-	class arifle_Katiba_GL_F;
 	class arifle_Katiba_GL_ACO_pointer_snds_MU_F : arifle_Katiba_GL_F
 	{
 		scope = 1;
@@ -902,7 +922,6 @@
 			};
 		};
 	};
-	class SMG_02_F;
 	class SMG_02_Hamr_pointer_snds_MU_F : SMG_02_F
 	{
 		scope = 1;
@@ -927,7 +946,6 @@
 		};
 	};
 	
-	class hgun_Pistol_heavy_01_F;
 	class hgun_Pistol_heavy_01_MRD_snds_MU_F : hgun_Pistol_heavy_01_F
 	{
 		scope = 1;
@@ -947,7 +965,6 @@
 		};
 	};
 	
-	class srifle_DMR_06_olive_F;
 	class srifle_DMR_06_olive_KHSold_BI_MU_F : srifle_DMR_06_olive_F
 	{
 		scope = 1;
@@ -967,7 +984,6 @@
 		};
 	};
 	
-	class srifle_DMR_05_blk_F;
 	class srifle_DMR_05_blk_KHS_BI_MU_F : srifle_DMR_05_blk_F
 	{
 		scope = 1;
@@ -987,7 +1003,6 @@
 		};
 	};
 	
-	class srifle_DMR_04_F;
 	class srifle_DMR_04_Nstalker_pointer_BI_MU_F : srifle_DMR_04_F
 	{
 		scope = 1;
@@ -1012,7 +1027,6 @@
 		};
 	};
 	
-	class srifle_DMR_03_woodland_F;	
 	class srifle_DMR_03_woodland_Hamr_pointer_BI_F : srifle_DMR_03_woodland_F
 	{
 		scope = 1;
@@ -1037,7 +1051,6 @@
 		};
 	};
 	
-	class srifle_DMR_02_F;
 	class srifle_DMR_02_LRPS_pointer_snds_BI_MU_F : srifle_DMR_02_F
 	{
 		scope = 1;
@@ -1067,7 +1080,6 @@
 		};
 	};
 	
-	class MMG_01_tan_F;
 	class MMG_01_tan_BI_MU_F : MMG_01_tan_F
 	{
 		scope = 1;
@@ -1081,8 +1093,6 @@
 			};
 		};
 	};
-	class arifle_AK12_F;
-	class arifle_AK12U_F;
 	class arifle_AK12_ACO_pointer_snds_MU : arifle_AK12U_F
 	{
 		scope = 1;
@@ -1152,7 +1162,6 @@
 			};
 		};
 	};
-	class arifle_AK12_GL_F;
 	class arifle_AK12_GL_ACO_pointer_snds_MU : arifle_AK12_GL_F
 	{
 		scope = 1;
@@ -1176,7 +1185,6 @@
 			};
 		};
 	};
-	class arifle_CTARS_blk_F;
 	class arifle_CTARS_blk_ARCO_pointer_snds_MU : arifle_CTARS_blk_F
 	{
 		scope = 1;
@@ -1200,7 +1208,6 @@
 			};
 		};
 	};
-	class arifle_RPK12_F;
 	class arifle_RPK12_ARCO_pointer_snds_MU : arifle_RPK12_F
 	{
 		scope = 1;
@@ -1225,7 +1232,6 @@
 		};
 	};
 	
-	class arifle_SPAR_01_blk_F;
 	class arifle_SPAR_01_blk_Holo_MU : arifle_SPAR_01_blk_F
 	{
 		scope = 1;
@@ -1265,7 +1271,6 @@
 			};
 		};
 	};
-	class SMG_03C_camo;
 	class MU_SMG_03C_camo_snds : SMG_03C_camo
 	{
 		scope = 1;
@@ -1276,6 +1281,287 @@
 			{
 				slot = "MuzzleSlot";
 				item = "muzzle_snds_570";
+			};
+		};
+	};
+	class MU_srifle_DMR_06_hunter_KHS: srifle_DMR_06_hunter_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_KHS_old";
+			};
+		};
+	};
+	class MU_SMG_02_flash : SMG_02_F
+	{
+		scope = 1;
+		scopeCurator = 1;
+		class LinkedItems
+		{
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "acc_flashlight";
+			};
+		};
+	};
+	class SMG_02_flash_MU_police_F : MU_SMG_02_flash {}; //legacy
+	
+
+	class MU_arifle_TRG21_Holo_flash: arifle_TRG21_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemSide
+			{
+				slot = "PointerSlot";
+				item = "acc_flashlight";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_Holosight_blk_F";
+			};
+		};
+	};
+	class MU_arifle_TRG21_MRCO_flash: arifle_TRG21_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemSide
+			{
+				slot = "PointerSlot";
+				item = "acc_flashlight";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_MRCO";
+			};
+		};
+	};
+	class MU_arifle_TRG21_GL_MRCO_flash: arifle_TRG21_GL_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemSide
+			{
+				slot = "PointerSlot";
+				item = "acc_flashlight";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_MRCO";
+			};
+		};
+	};
+	class MU_srifle_DMR_05_blk_SOS_bipod: srifle_DMR_05_blk_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_SOS";
+			};
+			class LinkedItemsBipod
+			{
+				slot = "UnderBarrelSlot";
+				item = "bipod_02_F_blk";
+			};
+		};
+	};
+	class MU_LMG_Mk200_black_Holo_flash: LMG_Mk200_black_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemSide
+			{
+				slot = "PointerSlot";
+				item = "acc_flashlight";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_Holosight_blk_F";
+			};
+		};
+	};
+	class MU_arifle_TRG20_ACO_flash: arifle_TRG20_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemSide
+			{
+				slot = "PointerSlot";
+				item = "acc_flashlight";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_ACO_grn";
+			};
+		};
+	};
+	class MU_arifle_TRG20_ACO: arifle_TRG20_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_ACO_grn";
+			};
+		};
+	};
+	class MU_arifle_TRG20_Holo_flash_snds: arifle_TRG20_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_M";
+			};
+			class LinkedItemSide
+			{
+				slot = "PointerSlot";
+				item = "acc_flashlight";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_Holosight_blk_F";
+			};
+		};
+	};
+	class MU_SMG_03C_khaki_snds: SMG_03C_khaki
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_570";
+			};
+		};
+	};
+	class MU_arifle_SPAR_01_blk_MRCO_flash_snds: arifle_SPAR_01_blk_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_M";
+			};
+			class LinkedItemSide
+			{
+				slot = "PointerSlot";
+				item = "acc_flashlight";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_MRCO";
+			};
+		};
+	};
+	class MU_arifle_SPAR_01_blk_Holo_flash_snds: arifle_SPAR_01_blk_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_M";
+			};
+			class LinkedItemSide
+			{
+				slot = "PointerSlot";
+				item = "acc_flashlight";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_Holosight_blk_F";
+			};
+		};
+	};
+	class MU_arifle_SPAR_01_GL_blk_Holo_flash_snds: arifle_SPAR_01_GL_blk_F
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "muzzle_snds_M";
+			};
+			class LinkedItemSide
+			{
+				slot = "PointerSlot";
+				item = "acc_flashlight";
+			};
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "optic_Holosight_blk_F";
 			};
 		};
 	};
