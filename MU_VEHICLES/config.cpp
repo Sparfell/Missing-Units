@@ -55,6 +55,6 @@ class CfgPatches {
 	};
 };
 
-#define MU_PREVIEW(x) 	editorPreview = "\MU\MU_VEHICLES\data\preview\##x##.jpg"
+#define MU_PREVIEW(x) 	editorPreview = \MU\MU_VEHICLES\data\preview\##x##.jpg
 
 #include "CfgVehicles.hpp"

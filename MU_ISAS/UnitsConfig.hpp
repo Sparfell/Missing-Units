@@ -20,8 +20,8 @@
 		scopeCurator = 2;
 		displayName = $STR_MU_units_islam_R1;
 		uniformClass = "U_MU_O_GuerillaGarment_grey";
-		linkedItems[] = {"V_TacVest_oli", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_oli", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"V_MU_Chestrig_light_khk", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"V_MU_Chestrig_light_khk", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		weapons[] = {"arifle_AKM_F", "hgun_Rook40_F", "Throw", "Put"};
 		respawnweapons[] = {"arifle_AKM_F", "hgun_Rook40_F", "Throw", "Put"};
 		magazines[] = {"30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellGreen", "Chemlight_red", "Chemlight_red"};
@@ -161,8 +161,8 @@
 		displayName = $STR_MU_units_islam_HAT;
 		uniformClass = "U_MU_O_GuerillaGarment3_olive";
 		backpack = "B_MU_IS_Carryall_khk_HAT";
-		linkedItems[] = {"V_TacChestrig_grn_F", "H_Bandanna_cbr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"V_TacChestrig_grn_F", "H_Bandanna_cbr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"V_MU_Chestrig_light_khk", "H_Bandanna_cbr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"V_MU_Chestrig_light_khk", "H_Bandanna_cbr", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		weapons[] = {"arifle_AKM_F", "launch_O_Vorona_brown_F", "hgun_Rook40_F", "Throw", "Put"};
 		respawnweapons[] = {"arifle_AKM_F", "launch_O_Vorona_brown_F", "hgun_Rook40_F", "Throw", "Put"};
 		magazines[] = { "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "Vorona_HEAT", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "SmokeShell", "SmokeShellGreen"};
@@ -182,8 +182,8 @@
 		secondaryAmmoCoef = 0.5;
 		uniformClass = "U_MU_O_GuerillaGarment_grey";
 		backpack = "B_MU_IS_AssaultPack_dgtl_AA";
-		linkedItems[] = {"V_TacVest_camo", "H_Bandanna_sand", "G_Bandanna_tan", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"V_TacVest_camo", "H_Bandanna_sand", "G_Bandanna_tan", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"V_MU_Chestrig_light_khk", "H_Bandanna_sand", "G_Bandanna_tan", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"V_MU_Chestrig_light_khk", "H_Bandanna_sand", "G_Bandanna_tan", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		weapons[] = {"arifle_AKM_F", "launch_B_Titan_olive_F", "hgun_Rook40_F", "Throw", "Put"};
 		respawnweapons[] = {"arifle_AKM_F", "launch_B_Titan_olive_F", "hgun_Rook40_F", "Throw", "Put"};
 		magazines[] = { "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "Titan_AA", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "SmokeShell", "SmokeShellGreen"};
@@ -206,8 +206,8 @@
 		engineer = 1;
 		uniformClass = "U_MU_O_GuerillaGarment_tank";
 		backpack = "B_MU_IS_TacticalPack_blk_engineer";
-		linkedItems[] = {"V_Chestrig_rgr", "H_ShemagOpen_khk", "G_Lowprofile", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		respawnLinkedItems[] = {"V_Chestrig_rgr", "H_ShemagOpen_khk", "G_Lowprofile", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		linkedItems[] = {"V_MU_Chestrig_light_rgr", "H_ShemagOpen_khk", "G_Lowprofile", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = {"V_MU_Chestrig_light_rgr", "H_ShemagOpen_khk", "G_Lowprofile", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		weapons[] = {"arifle_AKM_F", "hgun_Rook40_F", "Throw", "Put"};
 		respawnweapons[] = {"arifle_AKM_F", "hgun_Rook40_F", "Throw", "Put"};
 		magazines[] = {"30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_F", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShellGreen", "Chemlight_red", "Chemlight_red"};
@@ -250,7 +250,7 @@
 		displayName = "$STR_B_soldier_M_F0";
 		role = "Marksman";
 		cost = 250000;
-		uniformClass = "U_OG_Guerilla2_1";
+		uniformClass = "U_MU_O_GuerillaGarment3_green";
 		linkedItems[] = {"V_BandollierB_cbr", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"V_BandollierB_cbr", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		weapons[] = {"srifle_DMR_06_olive_KHSold_BI_MU_F", "hgun_Rook40_F", "Throw", "RangeFinder", "Put"};

@@ -24,7 +24,7 @@ class CfgPatches
 		requiredAddons[] = {"MU_core", "MU_asset", "A3_Characters_F", "A3_Weapons_F"};
 	};
 };
-#define MU_PREVIEW(x) 	editorPreview = "\MU\MU_GREENDAGGERS\data\preview\##x##.jpg"
+#define MU_PREVIEW(x) 	editorPreview = \MU\MU_GREENDAGGERS\data\preview\##x##.jpg
 
 class CfgVehicleClasses
 {

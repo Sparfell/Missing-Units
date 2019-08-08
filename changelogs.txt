@@ -1,8 +1,20 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
-//			MISSING UNITS - V2.7 - ADDON FOR ARMA 3 by Sparfell			//	
+//			MISSING UNITS - V2.9 - ADDON FOR ARMA 3 by Sparfell			//	
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 0 :CHANGELOGS
+
+Changelog v 2.9 :
+ - Added 35 guerilla uniform variants
+ - Added Light Chest Rigs (no camel back)
+ - Added Carrier Rigs variants without belts
+ - Added black LBV Harness variant
+ - Added black CSAT helmet variants
+ - Added new OPFOR faction : Livonian Partisans
+ - Re-added russian rebreather
+ - Reworked CSAT russian units loadouts
+ - Use of Contact russian identity for CSAT russian units
+ - Various config updates
 
 Changelog v 2.8 :
  - Use of Contact DLC content into current factions

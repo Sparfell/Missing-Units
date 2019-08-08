@@ -546,11 +546,7 @@ class CfgVehicles {
 		faction="OPF_T_F";
 		crew="O_T_crew_F";
 		typicalCargo[] = {"O_T_Soldier_F"};
-		textureList[]=
-		{
-			"GreenHex",
-			1
-		};
+		textureList[] = {"GreenHex",1};
 		hiddenSelectionsTextures[]=
 		{
 			"a3\Armor_F_Exp\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_ghex_CO.paa",

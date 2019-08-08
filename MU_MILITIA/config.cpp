@@ -57,7 +57,7 @@ class CfgPatches
 		requiredAddons[] = {"MU_core","MU_vehicles","A3_Characters_F","A3_Weapons_F","A3_Soft_F","A3_Static_F","A3_armor_F","A3_boat_F","A3_Air_F"};
 	};
 };
-#define MU_PREVIEW(x) 	editorPreview = "\MU\MU_MILITIA\data\preview\##x##.jpg"
+#define MU_PREVIEW(x) 	editorPreview = \MU\MU_MILITIA\data\preview\##x##.jpg
 
 class CfgMarkers
 {

@@ -20,31 +20,13 @@ class CfgPatches
 		requiredAddons[] = {"MU_core","MU_asset","A3_Soft_F","A3_Characters_F","A3_Weapons_F"};
 	};
 };
-#define MU_PREVIEW(x) 	editorPreview = "\MU\MU_CIVILIAN\data\preview\##x##.jpg"
+#define MU_PREVIEW(x) 	editorPreview = \MU\MU_CIVILIAN\data\preview\##x##.jpg
 
 class CfgEditorSubcategories
 {
 	class MU_EdSubcat_Personnel_Persan
 	{
 		displayName = $STR_MU_units_Edensubcat_Persan;
-	};
-};
-
-class CfgWeapons
-{
-	class SMG_02_F;
-	class SMG_02_flash_MU_police_F : SMG_02_F
-	{
-		scope = 1;
-		scopeCurator = 1;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "acc_flashlight";
-			};
-		};
 	};
 };
 
@@ -61,8 +43,8 @@ class CfgVehicles
 		backpack = "";
 		linkedItems[] = {"V_TacVest_blk_POLICE", "H_Cap_police", "G_Shades_Black", "ItemGPS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_blk_POLICE", "H_Cap_police", "G_Shades_Black", "ItemGPS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
-		weapons[] = {"SMG_02_flash_MU_police_F","hgun_P07_F","Binocular","Throw","Put"};
-		respawnweapons[] = {"SMG_02_flash_MU_police_F","hgun_P07_F","Binocular","Throw","Put"};
+		weapons[] = {"MU_SMG_02_flash","hgun_P07_F","Binocular","Throw","Put"};
+		respawnweapons[] = {"MU_SMG_02_flash","hgun_P07_F","Binocular","Throw","Put"};
 		magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","smokeshellblue","smokeshellblue","MiniGrenade","Chemlight_blue","Chemlight_blue"};
 		Respawnmagazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","30Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","smokeshellblue","smokeshellblue","MiniGrenade","Chemlight_blue","Chemlight_blue"};
 		MU_PREVIEW(C_MU_man_police_officer_F);
