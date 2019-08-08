@@ -42,14 +42,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL1_F";
+						vehicle = "I_MU_mercs_chef_F";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {5,-5,0};
 					};
@@ -84,14 +84,14 @@ class CfgGroups
 					class Unit6
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_R2_F";
+						vehicle = "I_MU_mercs_R1_F";
 						rank = "PRIVATE";
 						position[] = {-15,-15,0};
 					};
 					class Unit7
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_R3_F";
+						vehicle = "I_MU_mercs_R1_F";
 						rank = "PRIVATE";
 						position[] = {20,-20,0};
 					};
@@ -170,7 +170,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -206,7 +206,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -242,7 +242,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -278,7 +278,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
@@ -299,7 +299,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_R2_F";
+						vehicle = "I_MU_mercs_R1_F";
 						rank = "PRIVATE";
 						position[] = {7,0,0};
 					};
@@ -314,7 +314,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {0,5,0};
 					};
@@ -350,14 +350,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL1_F";
+						vehicle = "I_MU_mercs_chef_F";
 						rank = "LIEUTENANT";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {3,0,0};
 					};
@@ -378,7 +378,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_R2_F";
+						vehicle = "I_MU_mercs_R1_F";
 						rank = "PRIVATE";
 						position[] = {9,0,0};
 					};
@@ -393,14 +393,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_R4_F";
+						vehicle = "I_MU_mercs_R1_F";
 						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_R2_F";
+						vehicle = "I_MU_mercs_R1_F";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
@@ -420,7 +420,7 @@ class CfgGroups
 
 					class Unit1 {
 						side = 2;
-						vehicle = "I_MU_mercs_R4_F";
+						vehicle = "I_MU_mercs_R1_F";
 						rank = "PRIVATE";
 						position[] = {5, -5, 0};
 					};
@@ -439,7 +439,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -474,7 +474,7 @@ class CfgGroups
 					class Unit5
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_R2_F";
+						vehicle = "I_MU_mercs_R1_F";
 						rank = "CORPORAL";
 						position[] = {-10,-10,0};
 					};
@@ -503,7 +503,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_Jeep_AT";
+						vehicle = "I_MU_mercs_Jeep_MG";
 						rank = "CORPORAL";
 						position[] = {-10,-10,0};
 					};
@@ -522,7 +522,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
@@ -558,14 +558,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_R2_F";
+						vehicle = "I_MU_mercs_R1_F";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};
@@ -594,14 +594,14 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_TL2_F";
+						vehicle = "I_MU_mercs_TL1_F";
 						rank = "SERGEANT";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 2;
-						vehicle = "I_MU_mercs_R2_F";
+						vehicle = "I_MU_mercs_R1_F";
 						rank = "CORPORAL";
 						position[] = {5,-5,0};
 					};

@@ -1,4 +1,4 @@
-	class B_TacticalPack_blk;
+	
 	class B_MU_M_TacticalPack_blk_GL : B_TacticalPack_blk
 	{
 		scope = 1;
@@ -42,7 +42,6 @@
 			};
 		};
 	};
-	class B_AssaultPack_cbr;
 	class B_MU_M_AssaultPack_cbr_GL : B_AssaultPack_cbr
 	{
 		scope = 1;
@@ -104,26 +103,6 @@
 			};
 		};
 	};
-	class B_Kitbag_rgr;
-	class B_MU_M_Kitbag_rgr_medic : B_Kitbag_rgr
-	{
-		scope = 1;
-		scopeCurator = 1;
-		class TransportItems
-		{
-			class _xx_Medikit
-			{
-				name = "Medikit";
-				count = 1;
-			};
-			class _xx_FirstAidKit
-			{
-				name = "FirstAidKit";
-				count = 10;
-			};
-		};
-	};
-	class B_Carryall_green_F;
 	class B_MU_M_Carryall_oli_ammo : B_Carryall_green_F
 	{
 		scope = 1;
@@ -155,7 +134,6 @@
 			};
 		};
 	};
-	class B_AssaultPack_rgr;
 	class B_MU_M_AssaultPack_rgr_AA : B_AssaultPack_rgr
 	{
 		scope = 1;

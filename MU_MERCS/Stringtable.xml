@@ -51,45 +51,20 @@
 						</Key>
 				</Container>
 				<Container name="MU mercs units">
-						<Key ID="STR_MU_units_mercs_R1">
-								<Original>Mercenary 1</Original>
-								<English>Mercenary 1</English>
-								<French>Mercenaire 1</French>
-						</Key>
-						<Key ID="STR_MU_units_mercs_TL1">
-								<Original>Team Leader 1</Original>
-								<English>Team Leader 1</English>
-								<French>Chef d'équipe 1</French>
-						</Key>
-						<Key ID="STR_MU_units_mercs_TL2">
-								<Original>Team Leader 2</Original>
-								<English>Team Leader 2</English>
-								<French>Chef d'équipe 2</French>
-						</Key>
 						<Key ID="STR_MU_units_mercs_R2">
-								<Original>Mercenary 2</Original>
-								<English>Mercenary 2</English>
-								<French>Mercenaire 2</French>
+								<Original>Rifleman (TRG-20)</Original>
+								<English>Rifleman (TRG-20)</English>
+								<French>Fusilier (TRG-20)</French>
 						</Key>
 						<Key ID="STR_MU_units_mercs_R3">
-								<Original>Mercenary 3</Original>
-								<English>Mercenary 3</English>
-								<French>Mercenaire 3</French>
+								<Original>Rifleman (SPAR-16)</Original>
+								<English>Rifleman (SPAR-16)</English>
+								<French>Fusilier (SPAR-16)</French>
 						</Key>
 						<Key ID="STR_MU_units_mercs_R4">
-								<Original>Mercenary 4</Original>
-								<English>Mercenary 4</English>
-								<French>Mercenaire 4</French>
-						</Key>
-						<Key ID="STR_MU_units_mercs_GL1">
-								<Original>Grenadier 1</Original>
-								<English>Grenadier 1</English>
-								<French>Grenadier 1</French>
-						</Key>
-						<Key ID="STR_MU_units_mercs_GL2">
-								<Original>Grenadier 2</Original>
-								<English>Grenadier 2</English>
-								<French>Grenadier 2</French>
+								<Original>Rifleman (P90)</Original>
+								<English>Rifleman (P90)</English>
+								<French>Fusilier (P90)</French>
 						</Key>
 				</Container>
 		</Package>

@@ -24,30 +24,34 @@ class CfgPatches
 			"I_MU_mercs_A_F", 
 			"I_MU_mercs_engineer_F", 
 			"I_MU_mercs_chef_F", 
-			"I_MU_mercs_helipilot_F", 
-			"MU_MERC_HummingBird", 
-			"MU_MERC_Mohawk", 
+			"I_MU_mercs_helipilot_F",
+			"I_MU_mercs_Boat_Transport_01_F",
+			"I_MU_mercs_rhib",
+			"I_MU_mercs_HummingBird",
+			"I_MU_mercs_MD500", 
+			"I_MU_mercs_Mohawk",
+			"I_MU_mercs_Orca",
 			"I_MU_mercs_Offroad_01_F", 
 			"I_MU_mercs_Offroad_01_armed_F", 
 			"I_MU_mercs_Offroad_01_covered",
 			"I_MU_mercs_Offroad_01_comms",
 			"I_MU_mercs_Quadbike_01_F", 
 			"I_MU_mercs_Offroad_01_repair_F",
-			"O_MU_mercs_Boat_Transport_01_F",
-			"O_MU_mercs_Mortar_01_F",
 			"I_MU_mercs_Jeep",
 			"I_MU_mercs_Jeep_MG",
-			"I_MU_mercs_Jeep_AT",
 			"I_MU_mercs_caesar",
-			"I_MU_mercs_rhib",
+			"I_MU_mercs_SUV",
+			"I_MU_mercs_truck",
+			"I_MU_mercs_van",
+			"I_MU_mercs_van_transport",
 			"Flag_MU_Mercs_F"
 		};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"MU_core", "A3_Characters_F","A3_Weapons_F","A3_Air_F","A3_Air_F_beta","A3_Soft_F","A3_Soft_F_Offroad_01", "A3_Static_F", "A3_boat_F"};
+		requiredAddons[] = {"MU_core","MU_asset","A3_Characters_F","A3_Weapons_F","A3_Air_F","A3_Air_F_beta","A3_Soft_F","A3_Soft_F_Offroad_01","A3_Static_F","A3_boat_F","A3_Supplies_F_Enoch"};
 	};
 };
-#define MU_PREVIEW(x) 	editorPreview = "\MU\MU_MERCS\data\preview\##x##.jpg"
+#define MU_PREVIEW(x) 	editorPreview = \MU\MU_MERCS\data\preview\##x##.jpg
 
 class CfgFactionClasses
 {
@@ -82,9 +86,44 @@ class CfgVehicleClasses
 	};
 };
 
+class CfgWeapons
+{
+	class Uniform_Base;
+	class U_O_R_Gorka_01_brown_F: Uniform_Base
+	{
+		class ItemInfo;
+	};
+	class U_MU_I_Gorka_01_brown : U_O_R_Gorka_01_brown_F
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		scopeCurator = 2;
+		class ItemInfo: ItemInfo
+		{
+			uniformClass = "I_MU_mercs_base_F";
+		};
+	};
+	class U_Marshal: Uniform_Base
+	{
+		class ItemInfo;
+	};
+	class U_MU_I_Marshal : U_Marshal
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		scopeCurator = 2;
+		class ItemInfo: ItemInfo
+		{
+			uniformClass = "I_MU_mercs_base_2_F";
+		};
+	};
+};
+
 class CfgVehicles
 {
-	#include "BagsConfig.hpp"
+	#include "BagsConfig2.hpp"
 	#include "UnitsConfig.hpp"
 	#include "VehicleConfig.hpp"
 
@@ -100,5 +139,8 @@ class CfgVehicles
 		};
 		MU_PREVIEW(Flag_MU_Mercs_F);
 	};
+	
+	// legacy backpacks
+	#include "BagsConfig.hpp"
 };
 #include "GroupsConfig.hpp"
