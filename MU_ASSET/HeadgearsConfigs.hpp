@@ -142,6 +142,17 @@
 		picture = "\A3\Characters_F_Exp\Headgear\Data\UI\icon_H_HelmetB_Light_tna_F_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Headgear\Data\H_HelmetB_Light_tna_F_co.paa"};
 	};
+	class H_MU_HelmetB_light2_wdl : H_MU_HelmetB_light2
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		scopeArsenal = 2;
+		scopeCurator = 2;
+		displayName = "$STR_MU_headgears_HelmetB_light2_wdl";
+		picture = "\A3\Characters_F\data\ui\icon_H_HelmetB_light_black_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Enoch\Headgear\Data\equip1_wdl_co.paa"};
+	};
 	
 	//CSAT Helmets in black
 	class H_HelmetO_ocamo;

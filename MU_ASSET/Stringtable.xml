@@ -22,6 +22,36 @@
 								<English>Kitbag (Digi)</English>
 								<French>Paquetage de terrain (Digi)</French>
 						</Key>
+						<Key ID="STR_MU_AssaultPack_US_rgr">
+								<Original>US Assault Pack (Green)</Original>
+								<English>US Assault Pack (Green)</English>
+								<French>Paquetage d'assaut US (vert)</French>
+						</Key>
+						<Key ID="STR_MU_AssaultPack_US_khk">
+								<Original>US Assault Pack (Khaki)</Original>
+								<English>US Assault Pack (Khaki)</English>
+								<French>Paquetage d'assaut US (kaki)</French>
+						</Key>
+						<Key ID="STR_MU_AssaultPack_US_tna">
+								<Original>US Assault Pack (Tropical)</Original>
+								<English>US Assault Pack (Tropical)</English>
+								<French>Paquetage d'assaut US (tropiques)</French>
+						</Key>
+						<Key ID="STR_MU_AssaultPack_US_digi">
+								<Original>US Assault Pack (Digi)</Original>
+								<English>US Assault Pack (Digi)</English>
+								<French>Paquetage d'assaut US (digi)</French>
+						</Key>
+						<Key ID="STR_MU_AssaultPack_US_sgg">
+								<Original>US Assault Pack (Sage)</Original>
+								<English>US Assault Pack (Sage)</English>
+								<French>Paquetage d'assaut US (vert sauge)</French>
+						</Key>
+						<Key ID="STR_MU_AssaultPack_US_mcamo">
+								<Original>US Assault Pack (MTP)</Original>
+								<English>US Assault Pack (MTP)</English>
+								<French>Paquetage d'assaut US (MTP)</French>
+						</Key>
 				</Container>
 				<Container name="MU else headgears">
 						<Key ID="STR_MU_headgears_milcap_cbr">
@@ -52,37 +82,42 @@
 						<Key ID="STR_MU_headgears_HelmetB_light2">
 								<Original>Light Combat Helmet 2</Original>
 								<English>Light Combat Helmet 2</English>
-								<French>Light Combat Helmet 2</French>
+								<French>Casque léger de combat 2</French>
 						</Key>
 						<Key ID="STR_MU_headgears_HelmetB_light2_Black">
 								<Original>Light Combat Helmet 2 (Black)</Original>
 								<English>Light Combat Helmet 2 (Black)</English>
-								<French>Light Combat Helmet 2 (Black)</French>
+								<French>Casque léger de combat 2 (noir)</French>
 						</Key>
 						<Key ID="STR_MU_headgears_HelmetB_light2_Desert">
 								<Original>Light Combat Helmet 2 (Desert)</Original>
 								<English>Light Combat Helmet 2 (Desert)</English>
-								<French>Light Combat Helmet 2 (Desert)</French>
+								<French>Casque léger de combat 2 (Désert)</French>
 						</Key>
 						<Key ID="STR_MU_headgears_HelmetB_light2_Grass">
 								<Original>Light Combat Helmet 2 (Grass)</Original>
 								<English>Light Combat Helmet 2 (Grass)</English>
-								<French>Light Combat Helmet 2 (Grass)</French>
+								<French>Casque léger de combat 2 (Herbe)</French>
 						</Key>
 						<Key ID="STR_MU_headgears_HelmetB_light2_Sand">
 								<Original>Light Combat Helmet 2 (Sand)</Original>
 								<English>Light Combat Helmet 2 (Sand)</English>
-								<French>Light Combat Helmet 2 (Sand)</French>
+								<French>Casque léger de combat 2 (Sable)</French>
 						</Key>
 						<Key ID="STR_MU_headgears_HelmetB_light2_Snakeskin">
 								<Original>Light Combat Helmet 2 (Snakeskin)</Original>
 								<English>Light Combat Helmet 2 (Snakeskin)</English>
-								<French>Light Combat Helmet 2 (Snakeskin)</French>
+								<French>Casque léger de combat 2 (Peau de serpent)</French>
 						</Key>
 						<Key ID="STR_MU_headgears_HelmetB_light2_Tropic">
 								<Original>Light Combat Helmet 2 (Tropic)</Original>
 								<English>Light Combat Helmet 2 (Tropic)</English>
-								<French>Light Combat Helmet 2 (Tropic)</French>
+								<French>Casque léger de combat 2 (tropiques)</French>
+						</Key>
+						<Key ID="STR_MU_headgears_HelmetB_light2_wdl">
+								<Original>Light Combat Helmet 2 (Woodland)</Original>
+								<English>Light Combat Helmet 2 (Woodland)</English>
+								<French>Casque léger de combat 2 (forêt)</French>
 						</Key>
 						<Key ID="STR_MU_headgears_HelmetO_blk">
 								<Original>Protector Helmet (Black)</Original>
@@ -747,6 +782,11 @@
 								<Original>Casual Clothes (White)</Original>
 								<English>Casual Clothes (White)</English>
 								<French>Vêtements de ville (blanc)</French>
+						</Key>
+						<Key ID="STR_MU_u_nikos">
+								<Original>Nikos Outfit</Original>
+								<English>Nikos Outfit</English>
+								<French>Tenue de Nikos</French>
 						</Key>
 				</Container>
 		</Package>

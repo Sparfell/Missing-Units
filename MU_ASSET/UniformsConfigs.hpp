@@ -425,3 +425,8 @@
 			mass = 30;
 		};
 	};
+	class U_NikosAgedBody: Uniform_Base
+	{
+		scope = 2;
+		displayName="$STR_MU_u_nikos";
+	};
