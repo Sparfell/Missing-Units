@@ -97,8 +97,9 @@ class CfgWeapons
 	{
 		author = "Sparfell";
 		dlc = "Missing_Units";
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 0;
+		scopeArsenal = 0;
 		class ItemInfo: ItemInfo
 		{
 			uniformClass = "I_MU_mercs_base_F";
@@ -112,8 +113,9 @@ class CfgWeapons
 	{
 		author = "Sparfell";
 		dlc = "Missing_Units";
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 0;
+		scopeArsenal = 0;
 		class ItemInfo: ItemInfo
 		{
 			uniformClass = "I_MU_mercs_base_2_F";

@@ -2,7 +2,8 @@
 	class B_MU_RUSP_TacticalPack_blk_GL : B_TacticalPack_blk
 	{
 		scope = 1;
-		scopeCurator = 1;
+		scopeCurator = 0;
+		scopeArsenal = 0;
 		class TransportMagazines
 		{
 			class _xx_30Rnd_762x39_AK12_Mag_F
@@ -40,7 +41,8 @@
 	class B_MU_RUSP_TacticalPack_blk_medic : B_TacticalPack_blk
 	{
 		scope = 1;
-		scopeCurator = 1;
+		scopeCurator = 0;
+		scopeArsenal = 0;
 		class TransportItems
 		{
 			class _xx_Medikit
@@ -58,7 +60,8 @@
 	class B_MU_RUSP_TacticalPack_blk_eng : B_TacticalPack_blk
 	{
 		scope = 1;
-		scopeCurator = 1;
+		scopeCurator = 0;
+		scopeArsenal = 0;
 		class TransportItems
 		{
 			class _xx_ToolKit
@@ -95,7 +98,8 @@
 	class B_MU_RUSP_Carryall_blk_A : B_MU_Carryall_blk
 	{
 		scope = 1;
-		scopeCurator = 1;
+		scopeCurator = 0;
+		scopeArsenal = 0;
 		class TransportItems
 		{
 			class _xx_FirstAidKit
@@ -148,7 +152,8 @@
 	class B_MU_RUSP_AssaultPack_rgr_AT : B_AssaultPack_rgr //legacy
 	{
 		scope = 1;
-		scopeCurator = 1;
+		scopeCurator = 0;
+		scopeArsenal = 0;
 		class TransportMagazines
 		{
 			class _xx_Vorona_HEAT
@@ -161,7 +166,8 @@
 	class B_MU_RUSP_TacticalPack_blk_AT : B_TacticalPack_blk
 	{
 		scope = 1;
-		scopeCurator = 1;
+		scopeCurator = 0;
+		scopeArsenal = 0;
 		class TransportMagazines
 		{
 			class _xx_Vorona_HEAT

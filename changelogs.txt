@@ -5,16 +5,19 @@
 0 :CHANGELOGS
 
 Changelog v 2.9 :
- - Added 35 guerilla uniform variants
- - Added Light Chest Rigs (no camel back)
- - Added Carrier Rigs variants without belts
- - Added black LBV Harness variant
- - Added black CSAT helmet variants
+ - Fully reworked mercenary faction
  - Added new OPFOR faction : Livonian Partisans
+ - Added 35 guerilla uniform variants
+ - Added 4 Light Chest Rigs (no camel back)
+ - Added 6 Carrier Rigs variants without belts
+ - Added 1 black LBV Harness variant
+ - Added 2 black CSAT helmet variants
+ - Added 6 US Assault Pack variants
+ - Added 1 light combat helmet variant
  - Re-added russian rebreather
  - Reworked CSAT russian units loadouts
  - Use of Contact russian identity for CSAT russian units
- - Various config updates
+ - Many config updates
 
 Changelog v 2.8 :
  - Use of Contact DLC content into current factions
