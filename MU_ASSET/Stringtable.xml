@@ -263,6 +263,41 @@
 								<English>Combat Fatigues (Wood) (Tee)</English>
 								<French>Treillis (Wood)(Tshirt)</French>
 						</Key>
+						<Key ID="STR_MU_u_CombatUniform_gen">
+								<Original>Combat Fatigues (Gendarmerie)</Original>
+								<English>Combat Fatigues (Gendarmerie)</English>
+								<French>Treillis (Gendarmerie)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_gen_vest">
+								<Original>Combat Fatigues (Gendarmerie) (Rolled-up)</Original>
+								<English>Combat Fatigues (Gendarmerie) (Rolled-up)</English>
+								<French>Treillis (Gendarmerie)(Roulé)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_gen_tshirt">
+								<Original>Combat Fatigues (Gendarmerie) (Tee)</Original>
+								<English>Combat Fatigues (Gendarmerie) (Tee)</English>
+								<French>Treillis (Gendarmerie)(Tshirt)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_sand">
+								<Original>Combat Fatigues (Sand)</Original>
+								<English>Combat Fatigues (Sand)</English>
+								<French>Treillis (Sable)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_sand_vest">
+								<Original>Combat Fatigues (Sand) (Rolled-up)</Original>
+								<English>Combat Fatigues (Sand) (Rolled-up)</English>
+								<French>Treillis (Sable)(Roulé)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_para">
+								<Original>Combat Fatigues (Jungle)</Original>
+								<English>Combat Fatigues (Jungle)</English>
+								<French>Treillis (Jungle)</French>
+						</Key>
+						<Key ID="STR_MU_u_CombatUniform_para_vest">
+								<Original>Combat Fatigues (Jungle) (Rolled-up)</Original>
+								<English>Combat Fatigues (Jungle) (Rolled-up)</English>
+								<French>Treillis (Jungle)(Roulé)</French>
+						</Key>
 						<Key ID="STR_MU_u_coverall_dirty2">
 								<Original>Coveralls (Dirty)</Original>
 								<English>Coveralls (Dirty)</English>

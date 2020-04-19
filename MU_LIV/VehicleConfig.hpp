@@ -12,7 +12,7 @@
 		crew = "O_MU_LIVP_soldier_r1";
 		typicalCargo[] = {"O_MU_LIVP_soldier_r1"};
 		textureList[] = {"Guerilla_01",1,"Guerilla_02",1,"Guerilla_04",1,"Guerilla_05",1,"Guerilla_07",1,"Guerilla_08",1,"Guerilla_09",1,"Green",1};
-		animationList[] = {"HideDoor1",0.333333,"HideDoor2",0.333333,"HideDoor3",0.333333,"HideBumper1",0.5,"HideBumper2",0.5,"HideBackpacks",0.5};
+		animationList[] = {"HideDoor1",0.333333,"HideDoor2",0.333333,"HideDoor3",0.333333,"HideBumper1",0.5,"HideBumper2",0.5,"HideBackpacks",0.5,"HideConstruction",0.5};
 		MU_PREVIEW(O_MU_LIVP_offroad)
 	};
 	class I_G_Offroad_01_armed_F;
@@ -28,7 +28,7 @@
 		crew = "O_MU_LIVP_soldier_r1";
 		typicalCargo[] = {"O_MU_LIVP_soldier_r1"};
 		textureList[] = {"Guerilla_01",1,"Guerilla_02",1,"Guerilla_04",1,"Guerilla_05",1,"Guerilla_07",1,"Guerilla_08",1,"Guerilla_09",1,"Green",1};
-		animationList[] = {"HideDoor1",0.333333,"HideDoor2",0.333333,"HideDoor3",0.333333,"HideBumper1",0.5,"HideBumper2",0.5,"HideBackpacks",0.5};
+		animationList[] = {"HideDoor1",0.333333,"HideDoor2",0.333333,"HideDoor3",0.333333,"HideBumper1",0.5,"HideBumper2",0.5,"HideBackpacks",0.5,"Hide_Shield",0.5,"HideConstruction",0.5};
 		MU_PREVIEW(O_MU_LIVP_offroad_armed)
 	};
 	class O_G_Offroad_01_AT_F;
@@ -229,6 +229,30 @@
 		crew = "O_MU_LIVP_soldier_r1";
 		typicalCargo[] = {"O_MU_LIVP_soldier_r1"};
 		MU_PREVIEW(O_MU_LIVP_static_AT)
+	};
+	class O_G_HMG_02_high_F;
+	class O_MU_LIVP_HMG_02_high: O_G_HMG_02_high_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_LIVP_F";
+		crew = "O_MU_LIVP_soldier_r1";
+	};
+	class O_G_HMG_02_F;
+	class O_MU_LIVP_HMG_02: O_G_HMG_02_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_LIVP_F";
+		crew = "O_MU_LIVP_soldier_r1";
 	};
 	
 	//quad

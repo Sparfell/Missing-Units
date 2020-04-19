@@ -509,8 +509,8 @@ class CfgVehicles {
 	};
 	class MU_NATO_T_Gorgon: MU_NATO_Gorgon
 	{
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 0;
 		forceInGarage = 0;
 		faction = "BLU_T_F";
 		crew = "B_T_Crew_F";
@@ -710,8 +710,8 @@ class CfgVehicles {
 	};
 	class MU_NATO_T_Panther_unarmed: MU_NATO_Panther_unarmed
 	{
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 0;
 		forceInGarage = 0;
 		faction="BLU_T_F";
 		crew="B_T_Crew_F";

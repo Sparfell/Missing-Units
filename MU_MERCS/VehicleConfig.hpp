@@ -133,7 +133,7 @@
 			};
 		};
 		textureList[] = {"MU_mercs_offroad_tex_black",1};
-		animationList[] = {"HideDoor1",0,"HideDoor2",0,"HideDoor3",0.333333,"HideBumper1",0.5,"HideBumper2",0.5,"HideConstruction",0.5,"HideBackpacks",0.5};
+		animationList[] = {"HideDoor1",0,"HideDoor2",0,"HideDoor3",0.333333,"HideBumper1",0.5,"HideBumper2",0.5,"HideConstruction",0.5,"HideBackpacks",0.5,"Hide_Shield",0.5,"Hide_Rail",0.66};
 		MU_PREVIEW(I_MU_mercs_Offroad_01_armed_F);
 	};
 	class Offroad_01_repair_military_base_F;
@@ -365,8 +365,8 @@
 	};
 	
 	//statics
-	class O_G_Mortar_01_F;
-	class I_MU_mercs_Mortar_01_F: O_G_Mortar_01_F
+	class I_G_Mortar_01_F;
+	class I_MU_mercs_Mortar_01_F: I_G_Mortar_01_F
 	{
 		scope = 1;
 		scopeCurator = 0;
@@ -379,6 +379,32 @@
 		//MU_PREVIEW(I_MU_mercs_Mortar_01_F);
 	};
 	class O_MU_mercs_Mortar_01_F: I_MU_mercs_Mortar_01_F {};
+	
+	class I_G_HMG_02_high_F;
+	class I_MU_mercs_HMG_02_high: I_G_HMG_02_high_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 2;
+		faction = "MU_MERCS_F";
+		crew = "I_MU_mercs_R1_F";
+	};
+	class I_G_HMG_02_F;
+	class I_MU_mercs_HMG_02: I_G_HMG_02_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 2;
+		faction = "MU_MERCS_F";
+		crew = "I_MU_mercs_R1_F";
+	};
+	
 	//planes
 	class Plane_Civil_01_base_F;
 	class I_MU_mercs_caesar : Plane_Civil_01_base_F

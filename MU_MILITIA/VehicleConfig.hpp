@@ -612,6 +612,30 @@
 		crew = "O_MU_militia_R_F";
 		MU_PREVIEW(O_MU_MIL_HMG_01_high_F);
 	};
+	class O_G_HMG_02_high_F;
+	class O_MU_MIL_HMG_02_high: O_G_HMG_02_high_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_MILITIA_F";
+		crew = "O_MU_militia_R_F";
+	};
+	class O_G_HMG_02_F;
+	class O_MU_MIL_HMG_02: O_G_HMG_02_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_MILITIA_F";
+		crew = "O_MU_militia_R_F";
+	};
 	class Offroad_02_unarmed_base_F;
 	class O_MU_MIL_Jeep : Offroad_02_unarmed_base_F
 	{
@@ -781,7 +805,7 @@
 			};
 		};
 		textureList[] = {"MU_MIL_offroad_tex_black",1};
-		animationList[] = {"HideDoor1",0.1,"HideDoor2",0.1,"HideDoor3",0.1,"HideBumper1",1,"HideBumper2",0.5};
+		animationList[] = {"HideDoor1",0.1,"HideDoor2",0.1,"HideDoor3",0.1,"HideBumper1",1,"HideBumper2",0.5,"Hide_Shield",0.5,"HideConstruction",0.5};
 		MU_PREVIEW(O_MU_MIL_offroad_armed);
 	};
 		

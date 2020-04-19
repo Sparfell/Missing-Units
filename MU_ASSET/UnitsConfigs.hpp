@@ -58,9 +58,85 @@
 		scopeArsenal = 1;
 		displayName = "Soldier Woodland base";
 		uniformClass = "U_MU_B_soldier_wdl_tshirt";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa"};
+		hiddenSelections[] = {"camo", "camo2"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa", "a3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_co.paa"};
 	};
+	
+	class B_MU_soldier_gen_base : B_soldier_F
+	{
+		scope = 1;
+		scopeCurator = 0;
+		scopeArsenal = 1;
+		displayName = "Soldier gendarmerie base";
+		uniformClass = "U_MU_B_CombatUniform_gen";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\a3\characters_f_exp\gendarmerie\data\U_B_GEN_Soldier_F_02_co.paa"};
+	};
+	class B_MU_soldier_gen_vest_base : B_soldier_SL_F
+	{
+		scope = 1;
+		scopeCurator = 0;
+		scopeArsenal = 1;
+		displayName = "Soldier gendarmerie base";
+		uniformClass = "U_MU_B_CombatUniform_gen_vest";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\a3\characters_f_exp\gendarmerie\data\U_B_GEN_Soldier_F_02_co.paa"};
+	};
+	class B_MU_soldier_gen_tshirt_base : B_soldier_AR_F
+	{
+		scope = 1;
+		scopeCurator = 0;
+		scopeArsenal = 1;
+		displayName = "Soldier gendarmerie base";
+		uniformClass = "U_MU_B_CombatUniform_gentshirt";
+		hiddenSelections[] = {"camo2","camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\BLUFOR\Data\U_BT_Soldier_AR_F_tna_01_co.paa","\a3\characters_f_exp\gendarmerie\data\U_B_GEN_Soldier_F_02_co.paa"};
+	};
+	
+	class I_Soldier_F;
+	class I_MU_soldier_sand_base : I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 0;
+		scopeArsenal = 1;
+		displayName = "Soldier sand base";
+		uniformClass = "U_MU_I_CombatUniform_sand";
+		hiddenSelections[] = {"Camo","insignia"};
+		hiddenSelectionsTextures[] = {"\A3\characters_f_exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa"};
+	};
+	class I_Soldier_02_F;
+	class I_MU_soldier_sand_vest_base : I_Soldier_02_F
+	{
+		scope = 1;
+		scopeCurator = 0;
+		scopeArsenal = 1;
+		displayName = "Soldier sand base";
+		uniformClass = "U_MU_I_CombatUniform_sand_vest";
+		hiddenSelections[] = {"Camo","insignia"};
+		hiddenSelectionsTextures[] = {"\A3\characters_f_exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa"};
+	};
+	
+	class I_MU_soldier_para_base : I_Soldier_F
+	{
+		scope = 1;
+		scopeCurator = 0;
+		scopeArsenal = 1;
+		displayName = "Soldier para base";
+		uniformClass = "U_MU_I_CombatUniform_para";
+		hiddenSelections[] = {"Camo","insignia"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"};
+	};
+	class I_MU_soldier_para_vest_base : I_Soldier_02_F
+	{
+		scope = 1;
+		scopeCurator = 0;
+		scopeArsenal = 1;
+		displayName = "Soldier para base";
+		uniformClass = "U_MU_I_CombatUniform_para_vest";
+		hiddenSelections[] = {"Camo","insignia"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"};
+	};
+	
 	class C_man_w_worker_F;
 	class C_MU_coverall_dirty2_base : C_man_w_worker_F
 	{

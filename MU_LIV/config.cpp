@@ -30,6 +30,8 @@ class CfgPatches
 			"O_MU_LIVP_truck_fuel",
 			"O_MU_LIVP_mortar",
 			"O_MU_LIVP_static_AT",
+			"O_MU_LIVP_HMG_02_high",
+			"O_MU_LIVP_HMG_02",
 			"O_MU_LIVP_quad",
 			"O_MU_LIVP_kamaz",
 			"O_MU_LIVP_kamaz_covered",

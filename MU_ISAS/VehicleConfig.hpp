@@ -11,7 +11,7 @@
 		crew= "O_MU_islam_R3_F";
 		typicalCargo[] = {"O_MU_islam_R1_F"};
 		textureList[] = {"guerilla_03",1,"guerilla_06",1,"guerilla_07",1,"guerilla_09",1,"guerilla_10",1,"guerilla_11",1,"guerilla_12",1};
-		animationList[] = {"HideDoor1",0.333333,"HideDoor2",0.333333,"HideDoor3",0.333333,"HideBumper1",0.5,"HideBumper2",0.5,"HideConstruction",0.5,"HideBackpacks",0.5};
+		animationList[] = {"HideDoor1",0.333333,"HideDoor2",0.333333,"HideDoor3",0.333333,"HideBumper1",0.5,"HideBumper2",0.5,"HideConstruction",0.5,"HideBackpacks",0.5,"Hide_Shield",0.5,"HideConstruction",0.5};
 		MU_PREVIEW(O_MU_islam_Offroad_01_armed_F);	
 		class TransportItems
 		{
@@ -304,6 +304,30 @@
 		faction = "MU_islam_F";
 		crew = "O_MU_islam_R2_F";
 		MU_PREVIEW(O_MU_IS_static_AT_F);	
+	};
+	class O_G_HMG_02_high_F;
+	class O_MU_IS_HMG_02_high: O_G_HMG_02_high_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_islam_F";
+		crew = "O_MU_islam_R2_F";
+	};
+	class O_G_HMG_02_F;
+	class O_MU_IS_HMG_02: O_G_HMG_02_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 1;
+		forceInGarage = 0;
+		dlc = "Missing_Units";
+		side = 0;
+		faction = "MU_islam_F";
+		crew = "O_MU_islam_R1_F";
 	};
 	class Offroad_02_unarmed_base_F;
 	class O_MU_IS_Jeep : Offroad_02_unarmed_base_F

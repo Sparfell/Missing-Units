@@ -108,6 +108,144 @@
 			mass = 40;
 		};
 	};
+	
+	
+	//Gendarmerie combat fatigues
+	class U_MU_B_CombatUniform_gen: Uniform_Base
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		displayName = "$STR_MU_u_CombatUniform_gen";
+		picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "B_MU_soldier_gen_base";
+			containerClass = Supply40;
+			mass = 40;
+		};
+	};
+	class U_MU_B_CombatUniform_gen_vest: Uniform_Base
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		displayName = "$STR_MU_u_CombatUniform_gen_vest";
+		picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_vest_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "B_MU_soldier_gen_vest_base";
+			containerClass = Supply40;
+			mass = 40;
+		};
+	};
+	class U_MU_B_CombatUniform_gentshirt: Uniform_Base
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		displayName = "$STR_MU_u_CombatUniform_gen_tshirt";
+		picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing_wdl_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "B_MU_soldier_gen_tshirt_base";
+			containerClass = Supply40;
+			mass = 40;
+		};
+	};
+	
+	//Tan AAF uniform
+	class U_MU_I_CombatUniform_sand: Uniform_Base
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "$STR_MU_u_CombatUniform_sand";
+		picture = "\A3\characters_f_beta\data\ui\icon_U_IR_CrewUniform_rucamo_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_indep_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "I_MU_soldier_sand_base";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class U_MU_I_CombatUniform_sand_vest: Uniform_Base
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "$STR_MU_u_CombatUniform_sand_vest";
+		picture = "\A3\characters_f_beta\data\ui\icon_U_IR_CrewUniform_rucamo_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_indep_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "I_MU_soldier_sand_vest_base";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	
+	//Para AAF uniform
+	class U_MU_I_CombatUniform_para: Uniform_Base
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "$STR_MU_u_CombatUniform_para";
+		picture = "\A3\characters_f_beta\data\ui\icon_U_IR_CrewUniform_rucamo_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_indep_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "I_MU_soldier_para_base";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	class U_MU_I_CombatUniform_para_vest: Uniform_Base
+	{
+		author = "Sparfell";
+		dlc = "Missing_Units";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "$STR_MU_u_CombatUniform_para_vest";
+		picture = "\A3\characters_f_beta\data\ui\icon_U_IR_CrewUniform_rucamo_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_indep_co.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "I_MU_soldier_para_vest_base";
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+	
 	class U_MU_B_coverall_dirty2: Uniform_Base
 	{
 		author = "Sparfell";

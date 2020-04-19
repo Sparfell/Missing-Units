@@ -28,6 +28,8 @@ class CfgPatches
 			"O_MU_IS_Boat_Transport_01_F",
 			"O_MU_IS_Mortar_01_F",
 			"O_MU_IS_static_AT_F",
+			"O_MU_IS_HMG_02_high",
+			"O_MU_IS_HMG_02",
 			"O_MU_IS_Jeep",
 			"O_MU_IS_Jeep_MG",
 			"O_MU_IS_Jeep_AT",

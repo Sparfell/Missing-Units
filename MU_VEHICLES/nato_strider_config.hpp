@@ -105,8 +105,8 @@
 	};
 	class MU_NATO_T_Strider: MU_NATO_Strider
 	{
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 0;
 		forceInGarage = 0;
 		faction = "BLU_T_F";
 		crew = "B_T_Soldier_F";
@@ -220,8 +220,8 @@
 	};
 	class MU_NATO_T_Strider_HMG: MU_NATO_Strider_HMG
 	{
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 0;
 		forceInGarage = 0;
 		faction = "BLU_T_F";
 		crew = "B_T_Soldier_F";
@@ -335,8 +335,8 @@
 	};
 	class MU_NATO_T_Strider_GMG: MU_NATO_Strider_GMG
 	{
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 0;
 		forceInGarage = 0;
 		faction = "BLU_T_F";
 		crew = "B_T_Soldier_F";

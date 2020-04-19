@@ -44,6 +44,8 @@ class CfgPatches
 			"I_MU_mercs_truck",
 			"I_MU_mercs_van",
 			"I_MU_mercs_van_transport",
+			"I_MU_mercs_HMG_02_high",
+			"I_MU_mercs_HMG_02",
 			"Flag_MU_Mercs_F"
 		};
 		weapons[] = {};

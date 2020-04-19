@@ -1,8 +1,14 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
-//			MISSING UNITS - V2.9 - ADDON FOR ARMA 3 by Sparfell			//	
+//			MISSING UNITS - V3.0 - ADDON FOR ARMA 3 by Sparfell			//	
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 0 :CHANGELOGS
+
+Changelog v 3.0 :
+ - Added 2 AAF uniform color variants (sand and jungle)
+ - Added 1 Gendarmerie uniform color variant
+ - Added Static M2 HMG for several factions
+ - Added probability for a shield on offroads HMG
 
 Changelog v 2.9 :
  - Fully reworked mercenary faction
